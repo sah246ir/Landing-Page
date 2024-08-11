@@ -3,7 +3,7 @@ const img = require("../../img/swiss.jpg")
 const About = () => {
     return (
         <div className='flex p-5 py-12 justify-center items-center'>
-            <div className="w-[1100px] flex items-center justify-between gap-5 flex-col sm:flex-row">
+            <div className="w-[1100px] flex items-center justify-between gap-5 flex-col sm:flex-row text-center sm:text-left">
                 <div className="">
                     <h1 className='tracking-wider mb-2'>ABOUT US</h1>
                     <h2 className='text-5xl font-semibold mb-4'>
