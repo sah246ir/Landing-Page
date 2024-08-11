@@ -1,5 +1,3 @@
-import { Copyright } from 'lucide-react'
-import React from 'react'
 
 const FooterContent = () => {
     return (
@@ -14,16 +12,16 @@ const FooterContent = () => {
                 <h1 className='text-sm font-medium text-gray-900'>QUICK LINKS</h1>
                 <ul className='py-2'>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">Home</a>
+                        <p>Home</p>
                     </li>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">About Us</a>
+                        <p>About Us</p>
                     </li>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">Services</a>
+                        <p>Services</p>
                     </li>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">Contact</a>
+                        <p>Contact</p>
                     </li>
                 </ul>
             </div>
@@ -32,16 +30,16 @@ const FooterContent = () => {
                 <h1 className='text-sm font-medium text-gray-900'>QUICK LINKS</h1>
                 <ul className='py-2'>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">Home</a>
+                        <p>Home</p>
                     </li>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">About Us</a>
+                        <p>About Us</p>
                     </li>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">Services</a>
+                        <p>Services</p>
                     </li>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">Contact</a>
+                        <p>Contact</p>
                     </li>
                 </ul>
             </div>
@@ -50,16 +48,16 @@ const FooterContent = () => {
                 <h1 className='text-sm font-medium text-gray-900'>INFORMATION</h1>
                 <ul className='py-2'>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">Privacy Policy</a>
+                        <p>Privacy Policy</p>
                     </li>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">Term And Condition</a>
+                        <p>Term And Condition</p>
                     </li>
                     <li className='text-gray-500 py-1 text-sm'>
-                        <a href="">Accessibility</a>
+                        <p>Accessibility</p>
                     </li>
                     <li className='text-gray-500 py-1 text-sm font-light' >
-                        <a href="">Industries</a>
+                        <p>Industries</p>
                     </li>
                 </ul>
             </div>

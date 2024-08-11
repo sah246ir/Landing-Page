@@ -1,5 +1,3 @@
-import React from 'react'
-import { ArrowButton } from '../Button'
 import { Clock } from 'lucide-react'
 const img = require("../../img/swiss2.webp")
 const img2 = require("../../img/swiss.jpg")

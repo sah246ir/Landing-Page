@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { ArrowButton } from '../Button'
 import HistoryCard from './HistoryCard'
 import NavigationPath from './NavigationPath'

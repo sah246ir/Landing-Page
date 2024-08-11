@@ -1,4 +1,3 @@
-import React from 'react'
 import { ArrowButton } from '../Button'
 const img = require("../../img/swiss2.webp")
 

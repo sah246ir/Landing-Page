@@ -1,4 +1,3 @@
-import React from 'react'
 import Statistics from './Statistics'
 const img = require("../../img/image.png")
 const StatisticsSection = () => {

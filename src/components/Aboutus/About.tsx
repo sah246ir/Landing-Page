@@ -1,6 +1,4 @@
-import React from 'react'
-import { ArrowButton } from '../Button'
-import { ArrowBigDown } from 'lucide-react'
+import { ArrowButton } from '../Button' 
 const img = require("../../img/swiss.jpg")
 const About = () => {
     return (

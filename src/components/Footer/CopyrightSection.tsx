@@ -1,5 +1,4 @@
 import { Copyright, LucideFacebook, LucideInstagram, LucideLinkedin, LucideTwitter } from 'lucide-react'
-import React from 'react'
 import Button from '../Button'
 
 const CopyrightSection = () => {

@@ -1,4 +1,3 @@
-import React from 'react'
 import LandingSidebar from './LandingSidebar'
 import { ArrowButton } from '../Button'
 

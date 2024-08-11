@@ -1,4 +1,3 @@
-import React from 'react'
 import LeftContact from './LeftContact'
 import RightContact from './RightContact'
 

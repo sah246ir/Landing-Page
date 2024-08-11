@@ -1,4 +1,3 @@
-import React from 'react'
 import NewsLetterFooter from './NewsLetterFooter'
 import FooterContent from './FooterContent'
 

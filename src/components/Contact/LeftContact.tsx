@@ -1,5 +1,4 @@
-import { LocateFixedIcon, LocateIcon, LucideMailbox, MailIcon, MailOpen, PhoneCallIcon } from 'lucide-react'
-import React from 'react'
+import { LocateFixedIcon, MailOpen, PhoneCallIcon } from 'lucide-react'
 
 const LeftContact = () => {
   return (

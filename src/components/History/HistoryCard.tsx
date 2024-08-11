@@ -1,5 +1,4 @@
-import React from 'react'
-import Button, { ArrowButton } from '../Button'
+import { ArrowButton } from '../Button'
 const img = require("../../img/swiss2.webp")
 
 interface PropTypes {
