@@ -33,7 +33,7 @@ const HistorySection = () => {
     setYears([...years])
   }, [])
   return (
-    <div className='min-h-screen flex items-center justify-center flex-col '>
+    <div className='py-12 flex items-center justify-center flex-col '>
 
 
       <div className="w-[100%] lg:w-[1000px] flex flex-col overflow-hidden">

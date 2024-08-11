@@ -24,7 +24,7 @@ const BlogSection = () => {
     return (
         <div className='bg-gray-50 py-12 mb-10 flex justify-center'>
             <div className="w-[1100px] justify-center overflow-hidden">
-                <div className="p-5 flex items-end justify-between">
+                <div className="p-5 flex sm:items-end justify-between flex-col sm:flex-row items-center text-center sm:text-left gap-5">
                     <div>
                         <h1 className='tracking-wider mb-2'>OUR BLOGS</h1>
                         <h2 className='text-5xl font-semibold'>

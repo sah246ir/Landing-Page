@@ -4,7 +4,7 @@ const LeftContact = () => {
   return (
     <div className=''>
       <div>
-        <h1 className='tracking-widest mb-1'>CONTACT US</h1>
+        <h1 className='tracking-widest mb-3'>CONTACT US</h1>
         <h2 className='text-4xl font-semibold tracking-wider'>
           We Look<br/> 
           Forward to You</h2>

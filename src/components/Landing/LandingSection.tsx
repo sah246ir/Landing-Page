@@ -3,7 +3,7 @@ import { ArrowButton } from '../Button'
 
 const LandingSection = () => {
     return (
-        <div className='bg-gray-200 min-h-screen overflow-hidden'> {/* Changed to h-screen */}
+        <div className='bg-gray-200 overflow-hidden'> {/* Changed to h-screen */}
             
             <div className="flex justify-between items-center h-screen">
                 <div className="w-[1100px] sm:px-12">

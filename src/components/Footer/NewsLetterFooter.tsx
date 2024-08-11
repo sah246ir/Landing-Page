@@ -11,7 +11,7 @@ const NewsLetterFooter = () => {
                 <div className="w-full md:w-fit  p-4 "> 
                     <input type="text" className='w-full px-3 py-1 bg-transparent text-sm' placeholder='Enter Your Email'/>
                 </div>
-                <Button className='w-full md:w-fit  py-1 rounded-l-full rounded-r-full bg-black text-white font-light h-full'>
+                <Button className='text-sm w-full md:w-fit  py-1 rounded-l-full rounded-r-full bg-black text-white font-light h-full'>
                     Subscribe Now
                 </Button>
             </div> 

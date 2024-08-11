@@ -24,7 +24,7 @@ const PortfolioSection = () => {
     return (
         <div className='py-12 flex justify-center items-center flex-col overflow-hidden'>
             <div className="w-[100%] lg:w-[1100px] flex justify-center">
-                <div className=" w-full p-5 flex items-end justify-between mb-7">
+                <div className=" w-full p-5 flex sm:items-end justify-between mb-7 flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
                     <div>
                         <h1 className='tracking-wider mb-2'>OUR PORTFOLIO</h1>
                         <h2 className='text-5xl font-semibold'>
