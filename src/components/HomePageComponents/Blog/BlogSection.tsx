@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { ArrowButton } from '../Button'
-import BlogCard from './BlogCard'
+import { ArrowButton } from '../../Button' 
+import BlogCard from './blogCard'
 const BlogSection = () => {
     const len = ["", "", ""]
     const [idx, setIdx] = useState<number>(0)
@@ -22,7 +22,7 @@ const BlogSection = () => {
         })
     }
     return (
-        <div className='bg-gray-50 py-12 mb-10 flex justify-center'>
+        <section className='bg-gray-50 py-12 mb-10 flex justify-center'>
             <div className="w-[1100px] justify-center overflow-hidden">
                 <div className="p-5 flex sm:items-end justify-between flex-col sm:flex-row items-center text-center sm:text-left gap-5">
                     <div>
@@ -39,17 +39,17 @@ const BlogSection = () => {
                 <div className="flex w-full">
                     {len.map(_ => {
                         return (
-                            <div style={{ translate: `${-100 * idx}%`, transition: "translate 700ms ease-in-out" }} className="flex justify-center items-end min-w-full gap-7 p-5">
-                                <BlogCard size='l' />
-                                <BlogCard size='s' />
-                                <BlogCard size='m' />
+                            <div style={{ translate: `${-100 * idx}%`, transition: "translate 700ms ease-in-out" }} className="flex justify-center items-end min-w-full gap-7 p-5"> 
+                               <BlogCard size='l' />
+                               <BlogCard size='s' />
+                               <BlogCard size='m' />
                             </div>
                         )
                     })}
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 

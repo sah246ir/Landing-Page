@@ -1,4 +1,4 @@
-import { ArrowButton } from '../Button'
+import { ArrowButton } from '../../Button'
 
 const LandingSidebar = () => {
   return (

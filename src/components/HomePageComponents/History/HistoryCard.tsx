@@ -1,5 +1,5 @@
-import { ArrowButton } from '../Button'
-const img = require("../../img/swiss2.webp")
+import { ArrowButton } from '../../Button'
+const img = require("../../../img/swiss2.webp")
 
 interface PropTypes {
     translate: `${number}%`,

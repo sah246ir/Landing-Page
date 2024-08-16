@@ -1,9 +1,9 @@
 import LandingSidebar from './LandingSidebar'
-import { ArrowButton } from '../Button'
+import { ArrowButton } from '../../Button'
 
 const LandingSection = () => {
     return (
-        <div className='bg-gray-200 overflow-hidden'> {/* Changed to h-screen */}
+        <section className='bg-gray-200 overflow-hidden'> {/* Changed to h-screen */}
             
             <div className="flex justify-between items-center h-screen">
                 <div className="w-[1100px] sm:px-12">
@@ -15,7 +15,7 @@ const LandingSection = () => {
                             Our Delivery<br />
                             Speaks For Itself
                         </h1>
-                        <p className='text-sm p-0 border border-gray-800 border-0 border-l-[1.5px] px-3 text-gray-800'>
+                        <p className='text-sm p-0   border-gray-800 border-0 border-l-[1.5px] px-3 text-gray-800'>
                             It was popularised in the 1960s with the release of Letraset<br />
                             sheets containing Lorem Ipsum passages.
                         </p>
@@ -28,7 +28,7 @@ const LandingSection = () => {
                 <LandingSidebar />
             </div>
 
-        </div>
+        </section>
     )
 }
 
