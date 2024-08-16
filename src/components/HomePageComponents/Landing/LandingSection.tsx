@@ -1,6 +1,5 @@
 import LandingSidebar from './LandingSidebar'
 import { ArrowButton } from '../../Button'
-import Section from '../../Section'
 
 const LandingSection = () => {
     return (

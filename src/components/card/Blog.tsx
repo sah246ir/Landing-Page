@@ -1,6 +1,5 @@
 import { Clock } from 'lucide-react'
 const img1 = require("../../img/swiss2.webp")
-const img2 = require("../../img/swiss.jpg")
 
 interface PropTypes {
     size?: "l" | "m" | "s",
