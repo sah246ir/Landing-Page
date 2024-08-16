@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
 import Heading from '../components/heading'
 import PortfolioSection from '../components/HomePageComponents/Portfolio/PortfolioSection'
 import CaseStudyBlogCard, { HorizontalBlogCard } from '../components/CaseStudyComponents/blogCard'
@@ -8,9 +7,7 @@ import Section from '../components/Section'
 
 const CaseStudiesPage = () => {
   return (
-    <div>
-      <Navbar className='bg-gray-50' />
-
+    <div> 
       <Section padded center className='flex-col bg-gray-50 min-h-96'>
         <Heading className='text-5xl font-normal'>Explore Our Case Studies</Heading>
         <p>it to make a type specimen book. It has survived not only five centuries</p>

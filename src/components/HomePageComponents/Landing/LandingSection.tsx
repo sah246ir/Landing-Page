@@ -3,12 +3,12 @@ import { ArrowButton } from '../../Button'
 
 const LandingSection = () => {
     return (
-        <section className='  bg-gray-200 overflow-hidden'> {/* Changed to h-screen */}
+        <section className='  bg-gray-100 overflow-hidden'> {/* Changed to h-screen */}
             
             <div className="flex justify-between items-center h-screen">
                 <div className="w-[1100px] sm:px-12">
                     <div className="logo absolute top-0 p-5">
-                        <h1 className='text-4xl mb-2 font-normal'>LOGO</h1>
+                        {/* <h1 className='text-4xl mb-2 font-normal'>LOGO</h1> */}
                     </div>
                     <div className='p-5 relative flex-grow'>
                         <h1 className='text-5xl font-semibold mb-8'>

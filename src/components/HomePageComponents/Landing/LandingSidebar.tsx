@@ -5,12 +5,7 @@ const LandingSidebar = () => {
     <div className='h-full flex flex-col justify-around items-center bg-gray-400 w-[30%] py-8 px-12 max-w-[422px]'>
 
       <div className="flex items-center gap-3">
-        <div className="flex flex-col justify-between w-10 h-8 p-1">
-          <div className="rounded-l-full rounded-r-full bg-black h-[4px] w-full"></div>
-          <div className="rounded-l-full rounded-r-full bg-black h-[4px] w-full"></div>
-          <div className="rounded-l-full rounded-r-full bg-black h-[4px] w-full"></div>
-        </div>
-        <p className='font-md'>MENU</p>
+         
       </div>
 
       <div className="">
@@ -25,9 +20,9 @@ const LandingSidebar = () => {
       </div>
 
       <div className="flex gap-5 w-[30em] sm:w-[45em] md:w-[55em] lg:w-[65em]">
-        <div style={{aspectRatio:1/1.15}} className="bg-gray-300 min-w-[23%] "></div>
-        <div style={{aspectRatio:1/1.15}} className="bg-gray-300 min-w-[23%] "></div>
-        <div style={{aspectRatio:1/1.15}} className="bg-gray-300 min-w-[23%] "></div>
+        <div style={{aspectRatio:1/1.15}} className="bg-gray-500 min-w-[23%] "></div>
+        <div style={{aspectRatio:1/1.15}} className="bg-gray-500 min-w-[23%] "></div>
+        <div style={{aspectRatio:1/1.15}} className="bg-gray-500 min-w-[23%] "></div>
       </div>
     </div>
   )
