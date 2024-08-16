@@ -1,29 +1,19 @@
-import './App.css';
-import Footer from './components/Footer/Footer'; 
-import ContactSection from './components/Contact/ContactSection';
-import StatisticsSection from './components/Statistics/StatisticsSection';
-import About from './components/Aboutus/About';
-import LandingSection from './components/Landing/LandingSection';
-import PortfolioSection from './components/Portfolio/PortfolioSection';
-import ServiceSection from './components/Services/ServicesSection';
-import HistorySection from './components/History/HistorySection';
+import { Route, Routes } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import Footer from './components/Footer/Footer';
 import CopyrightSection from './components/Footer/CopyrightSection';
-import BlogSection from './components/Blog/BlogSection';
+import CaseStudiesPage from './pages/CaseStudiesPage';
 
 function App() {
   return (
     <div className="App">
-      <LandingSection />
-      <About />
-      <PortfolioSection />
-      <ServiceSection />
-      <StatisticsSection />
-      <HistorySection />
-      <BlogSection />
-      <ContactSection />
-      <Footer /> 
+      <Routes>
+        <Route index element={<HomePage />} />
+        <Route path='/case-study' element={<CaseStudiesPage />} />
+      </Routes>
+      <Footer />
       <CopyrightSection />
-      </div>
+    </div>
   );
 }
 
