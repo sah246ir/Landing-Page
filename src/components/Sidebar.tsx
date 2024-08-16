@@ -30,7 +30,7 @@ interface PropTypes {
 }
 const Sidebar = ({ isopen,setIsOpen }: PropTypes) => {
   return (
-    <div className={`whitespace-nowrap z-50 transition-all duration-300 ease-linear absolute  bg-gray-300 top-0 right-0 min-h-screen ${isopen ? "w-96" : "w-0"} flex items-center justify-center overflow-hidden`}>
+    <div className={`whitespace-nowrap z-50 transition-all duration-300 ease-linear fixed  bg-gray-300 bg-opacity-95 sm:bg-opacity-100 top-0 right-0 min-h-screen ${isopen ? "w-full sm:w-96" : "w-0"} flex items-center justify-center overflow-hidden`}>
 
       <div className="flex flex-col gap-8  w-full p-8">
        <SidebarAction onclick={setIsOpen} title='Home' href='/' />

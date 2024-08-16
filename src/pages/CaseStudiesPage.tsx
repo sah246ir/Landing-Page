@@ -8,8 +8,8 @@ import Section from '../components/Section'
 const CaseStudiesPage = () => {
   return (
     <div> 
-      <Section padded center className='flex-col bg-gray-50 min-h-96'>
-        <Heading className='text-5xl font-normal'>Explore Our Case Studies</Heading>
+      <Section padded center className='flex-col bg-gray-50 min-h-96 text-center'>
+        <Heading className='text-5xl font-normal text-center'>Explore Our Case Studies</Heading>
         <p>it to make a type specimen book. It has survived not only five centuries</p>
       </Section>
 
