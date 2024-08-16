@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { ArrowButton } from '../../Button'
 import ServiceCard from './ServiceCard'
+import Section from '../../Section'
 const ServiceSection = () => {
     const len = ["", "", ""]
     const [idx, setIdx] = useState<number>(0)
@@ -22,7 +23,7 @@ const ServiceSection = () => {
         })
     }
     return (
-        <section className='py-12 mb-10 flex justify-center'>
+        <Section padded className='mb-10 flex justify-center'>
             <div className="w-[1100px] justify-center overflow-hidden">
                 <div className="p-5 flex sm:flex-row gap-5 sm:items-end justify-between flex-col items-center text-center sm:text-left">
                     <div>
@@ -48,7 +49,7 @@ const ServiceSection = () => {
                 </div>
             </div>
 
-        </section>
+        </Section>
     )
 }
 

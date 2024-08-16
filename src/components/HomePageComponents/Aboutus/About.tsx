@@ -1,8 +1,9 @@
 import { ArrowButton } from '../../Button' 
+import Section from '../../Section'
 const img = require("../../../img/swiss.jpg")
 const About = () => {
     return (
-        <section className='flex p-5 py-12 justify-center items-center'>
+        <Section padded center >
             <div className="w-[1100px] flex items-center justify-between gap-5 flex-col sm:flex-row text-center sm:text-left">
                 <div className="">
                     <h1 className='tracking-wider mb-2'>ABOUT US</h1>
@@ -24,7 +25,7 @@ const About = () => {
                     <img width={650} src={img} alt="" />
                 </div>
             </div>
-        </section>
+        </Section>
     )
 }
 

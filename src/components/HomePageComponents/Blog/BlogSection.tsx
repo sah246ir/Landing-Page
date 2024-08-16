@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { ArrowButton } from '../../Button' 
 import BlogCard from './blogCard'
+import Section from '../../Section'
 const BlogSection = () => {
     const len = ["", "", ""]
     const [idx, setIdx] = useState<number>(0)
@@ -22,7 +23,7 @@ const BlogSection = () => {
         })
     }
     return (
-        <section className='bg-gray-50 py-12 mb-10 flex justify-center'>
+        <Section padded className='bg-gray-50 mb-10 flex justify-center'>
             <div className="w-[1100px] justify-center overflow-hidden">
                 <div className="p-5 flex sm:items-end justify-between flex-col sm:flex-row items-center text-center sm:text-left gap-5">
                     <div>
@@ -49,7 +50,7 @@ const BlogSection = () => {
                 </div>
             </div>
 
-        </section>
+        </Section>
     )
 }
 

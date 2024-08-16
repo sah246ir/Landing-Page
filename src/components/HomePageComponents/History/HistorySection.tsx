@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import { ArrowButton } from '../../Button'
 import HistoryCard from './HistoryCard'
 import NavigationPath from './NavigationPath'
+import Section from '../../Section'
 
 const HistorySection = () => {
   const [years, setYears] = useState<number[]>([])
@@ -33,7 +34,7 @@ const HistorySection = () => {
     setYears([...years])
   }, [])
   return (
-    <section className='py-12 flex items-center justify-center flex-col '>
+    <Section padded center className=' flex-col '>
 
 
       <div className="w-[100%] lg:w-[1000px] flex flex-col overflow-hidden">
@@ -55,7 +56,7 @@ const HistorySection = () => {
           })}
         </div>
       </div>
-    </section>
+    </Section>
   )
 }
 

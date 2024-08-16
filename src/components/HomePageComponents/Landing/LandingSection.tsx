@@ -1,9 +1,10 @@
 import LandingSidebar from './LandingSidebar'
 import { ArrowButton } from '../../Button'
+import Section from '../../Section'
 
 const LandingSection = () => {
     return (
-        <section className='bg-gray-200 overflow-hidden'> {/* Changed to h-screen */}
+        <section className='  bg-gray-200 overflow-hidden'> {/* Changed to h-screen */}
             
             <div className="flex justify-between items-center h-screen">
                 <div className="w-[1100px] sm:px-12">
