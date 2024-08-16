@@ -4,15 +4,21 @@ import Heading from '../components/heading'
 import PortfolioSection from '../components/HomePageComponents/Portfolio/PortfolioSection'
 import CaseStudyBlogCard, { HorizontalBlogCard } from '../components/CaseStudyComponents/blogCard'
 import Button from '../components/Button'
+import Section from '../components/Section'
 
 const CaseStudiesPage = () => {
   return (
-    <div className=''>
-      <Navbar />
+    <div>
+      <Navbar className='bg-gray-50' />
+
+      <Section padded center className='flex-col bg-gray-50 min-h-96'>
+        <Heading className='text-5xl font-normal'>Explore Our Case Studies</Heading>
+        <p>it to make a type specimen book. It has survived not only five centuries</p>
+      </Section>
 
 
-      <div style={{ marginInline: "auto" }} className="p-5 max-w-[1000px] ">
-        <Heading className='text-center mb-12'>
+      <Section padded style={{ marginInline: "auto" }} className="flex-col p-5 max-w-[1000px] gap-10">
+        <Heading className='text-center'>
           Industry Updates
         </Heading>
 
@@ -22,10 +28,10 @@ const CaseStudiesPage = () => {
           <CaseStudyBlogCard description='Having collaborated with this team for over a decade, I can attest to his exceptional r a decade strategic.' size='s' className='mb-0 flex-grow lg:flex-grow-0' />
           <CaseStudyBlogCard description='Having collaborated with this team for over a decade, I can attest to his exceptional r a decade strategic.' size='s' className='mb-0 flex-grow lg:flex-grow-0' />
         </div>
-      </div>
+      </Section>
       <PortfolioSection />
 
-      <div style={{ marginInline: "auto" }} className="p-5 max-w-[1000px] ">
+      <Section padded style={{ marginInline: "auto" }} className="flex-col p-5 max-w-[1000px] gap-10">
         <Heading className='text-center mb-12'>
           Our Case Studies
         </Heading>
@@ -34,9 +40,9 @@ const CaseStudiesPage = () => {
           <CaseStudyBlogCard size='s' className='mb-0 flex-grow ' ContentclassName='!rounded-0 w-full' />
           <CaseStudyBlogCard size='s' className='mb-0 flex-grow ' ContentclassName='!rounded-0 w-full' />
         </div>
-      </div>
+      </Section>
 
-      <div style={{ marginInline: "auto" }} className="p-5 max-w-[1000px] ">
+      <Section gray padded style={{ marginInline: "auto" }} className="!block p-5 max-w-[1000px] ">
         <Heading className='text-center mb-12'>
           See Our Portfolio
         </Heading>
@@ -44,26 +50,26 @@ const CaseStudiesPage = () => {
         <div className="flex flex-wrap gap-5 justify-start">
           <CaseStudyBlogCard size='s' className='mb-0 flex-grow lg:flex-grow- ' ContentclassName='!rounded-0 w-full' />
 
-          <div className=" flex flex-col gap-6">
-            <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between ' />
-            <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between ' />
-            <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between ' />
+          <div className=" flex flex-col gap-4">
+            <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between py-4 ' />
+            <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between py-4 ' />
+            <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between py-4 ' />
 
           </div>
         </div>
-      </div>
+      </Section>
 
-      <div style={{ marginInline: "auto" }} className="p-5 max-w-[1000px] py-12 flex flex-col items-center gap-5">
-        <Heading className='text-center mb-0'>
-        How Can We Help You?
+      <Section padded style={{ marginInline: "auto" }} className="  max-w-[1000px] flex-col items-center gap-5">
+        <Heading className='text-center !mb-0'>
+          How Can We Help You?
         </Heading>
         <p className='text-center text-sm text-gray-600'>It was popularised in the 1960s with the release of Letraset sheets containing</p>
 
         <Button className='bg-black text-white rounded-full font-normal'>
-        Contact Us
+          Contact Us
         </Button>
-        
-      </div>
+
+      </Section>
 
     </div>
   )

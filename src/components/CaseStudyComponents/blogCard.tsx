@@ -33,8 +33,8 @@ export const HorizontalBlogCard = ({ title, description, dateicon, size, classNa
     return (
         <Blog horizontal className={"gap-4 " + className} size={size}>
             <BlogContent className={ContentclassName || ""}>
-                <BlogDate icon={dateicon} />
-                <BlogTitle className="text-sm" >{title}</BlogTitle>
+                <BlogDate className="" icon={dateicon} />
+                <BlogTitle className="text-sm my-0" >{title}</BlogTitle>
 
                 {description && <BlogDescription className='text-xs text-gray-600 mb-2'>
                     {description}
