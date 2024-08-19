@@ -8,9 +8,9 @@ import MainHeadingSection from '../components/MainHeadingSection'
 
 const CaseStudiesPage = () => {
   return (
-    <div> 
-      
-      <MainHeadingSection title='Explore Our Case Studies' description='it to make a type specimen book. It has survived not only five centuries'/>
+    <div>
+
+      <MainHeadingSection title='Explore Our Case Studies' description='it to make a type specimen book. It has survived not only five centuries' />
 
 
       <Section padded style={{ marginInline: "auto" }} className="flex-col p-5 max-w-[1000px] gap-10">
@@ -38,19 +38,18 @@ const CaseStudiesPage = () => {
         </div>
       </Section>
 
-      <Section gray padded style={{ marginInline: "auto" }} className="!block p-5 max-w-[1000px] ">
-        <Heading className='text-center mb-12'>
-          See Our Portfolio
-        </Heading>
-
-        <div className="flex flex-wrap gap-5 justify-start">
-          <CaseStudyBlogCard size='s' className='mb-0 flex-grow lg:flex-grow- ' ContentclassName='!rounded-0 w-full' />
-
-          <div className=" flex flex-col gap-4">
-            <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between py-4 ' />
-            <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between py-4 ' />
-            <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between py-4 ' />
-
+      <Section gray padded style={{ marginInline: "auto" }} className="!block p-5 ">
+        <div className="max-w-[1000px] ">
+          <Heading className='text-center mb-12'>
+            See Our Portfolio
+          </Heading>
+          <div className="flex flex-wrap gap-5 justify-between items-start">
+            <CaseStudyBlogCard size='s' className='mb-0 flex-grow lg:flex-grow- ' ContentclassName='!rounded-0 w-full' />
+            <div className=" flex flex-col gap-10">
+              <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between  ' />
+              <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between  ' />
+              <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between  ' />
+            </div>
           </div>
         </div>
       </Section>
