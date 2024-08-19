@@ -5,6 +5,7 @@ import CopyrightSection from './components/Footer/CopyrightSection';
 import CaseStudiesPage from './pages/CaseStudiesPage';
 import Navbar from './components/Navbar';
 import InvestmentsPage from './pages/InvestmentsPage';
+import BlogPage from './pages/BlogPage';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route index element={<HomePage />} />
         <Route path='/case-study' element={<CaseStudiesPage />} />
         <Route path='/investments' element={<InvestmentsPage />} />
+        <Route path='/blog' element={<BlogPage />} />
       </Routes>
       <Footer />
       <CopyrightSection />

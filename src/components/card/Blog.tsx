@@ -2,7 +2,7 @@ import { Clock } from 'lucide-react'
 const img1 = require("../../img/swiss2.webp")
 
 interface PropTypes {
-    size?: "l" | "m" | "s",
+    size?: "l" | "m" | "s" | "xs",
     img?: string,
     className?: string, 
     children:React.ReactNode,
@@ -10,7 +10,7 @@ interface PropTypes {
 }
 export const Blog = ({ size, img, className, children,horizontal }: PropTypes) => {
     return (
-        <div className={`${size === "l" ? "w-[23em]" : ""} ${size === "s" ? "w-[18em]" : ""} ${size === "m" ? "w-[20em] " : ""} relative flex ${horizontal?"flex-row":"flex-col"} items-center ${className}`}>
+        <div className={`${size === "l" ? "w-[23em]" : ""} ${size === "s" ? "w-[18em]" : ""} ${size === "xs" ? "w-[14em]" : ""}  ${size === "m" ? "w-[20em] " : ""} relative flex ${horizontal?"flex-row":"flex-col"} items-center ${className}`}>
             <img className='w-full' src={img1} alt="" />
             {children}
         </div>

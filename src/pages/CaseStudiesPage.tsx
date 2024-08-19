@@ -4,14 +4,13 @@ import PortfolioSection from '../components/HomePageComponents/Portfolio/Portfol
 import CaseStudyBlogCard, { HorizontalBlogCard } from '../components/CaseStudyComponents/blogCard'
 import Button from '../components/Button'
 import Section from '../components/Section'
+import MainHeadingSection from '../components/MainHeadingSection'
 
 const CaseStudiesPage = () => {
   return (
     <div> 
-      <Section padded center className='flex-col bg-gray-50 min-h-96 text-center'>
-        <Heading className='text-5xl font-normal text-center'>Explore Our Case Studies</Heading>
-        <p>it to make a type specimen book. It has survived not only five centuries</p>
-      </Section>
+      
+      <MainHeadingSection title='Explore Our Case Studies' description='it to make a type specimen book. It has survived not only five centuries'/>
 
 
       <Section padded style={{ marginInline: "auto" }} className="flex-col p-5 max-w-[1000px] gap-10">
