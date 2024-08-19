@@ -16,3 +16,7 @@
     bottom: 0;
     left: 0;
 }
+
+.partial-sm::after{ 
+    width: 3em;  
+}
