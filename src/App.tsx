@@ -6,6 +6,7 @@ import CaseStudiesPage from './pages/CaseStudiesPage';
 import Navbar from './components/Navbar';
 import InvestmentsPage from './pages/InvestmentsPage';
 import BlogPage from './pages/BlogPage';
+import ServicesPage from './pages/ServicesPage';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path='/case-study' element={<CaseStudiesPage />} />
         <Route path='/investments' element={<InvestmentsPage />} />
         <Route path='/blog' element={<BlogPage />} />
+        <Route path='/services' element={<ServicesPage />} />
       </Routes>
       <Footer />
       <CopyrightSection />
