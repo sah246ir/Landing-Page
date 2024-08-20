@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import InvestmentsPage from './pages/InvestmentsPage';
 import BlogPage from './pages/BlogPage';
 import ServicesPage from './pages/ServicesPage';
+import ContactPage from './pages/ContactPage';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/investments' element={<InvestmentsPage />} />
         <Route path='/blog' element={<BlogPage />} />
         <Route path='/services' element={<ServicesPage />} />
+        <Route path='/contact-us' element={<ContactPage />} />
       </Routes>
       <Footer />
       <CopyrightSection />

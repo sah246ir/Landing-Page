@@ -38,6 +38,7 @@ const Sidebar = ({ isopen,setIsOpen }: PropTypes) => {
        <SidebarAction onclick={setIsOpen} title='Investments' href='/investments' />
        <SidebarAction onclick={setIsOpen} title='Blogs' href='/blog' />
        <SidebarAction onclick={setIsOpen} title='Services' href='/services' />
+       <SidebarAction onclick={setIsOpen} title='Contact' href='/contact-us' />
       </div>
 
     </div>
