@@ -8,6 +8,7 @@ import InvestmentsPage from './pages/InvestmentsPage';
 import BlogPage from './pages/BlogPage';
 import ServicesPage from './pages/ServicesPage';
 import ContactPage from './pages/ContactPage';
+import CareersPage from './pages/CareersPage';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path='/blog' element={<BlogPage />} />
         <Route path='/services' element={<ServicesPage />} />
         <Route path='/contact-us' element={<ContactPage />} />
+        <Route path='/careers' element={<CareersPage />} />
       </Routes>
       <Footer />
       <CopyrightSection />
