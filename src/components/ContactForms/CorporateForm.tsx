@@ -1,5 +1,5 @@
 import React from 'react'
-import { InputGroup, Textarea, TextareaGroup } from '../Input'
+import { InputGroup,  TextareaGroup } from '../Input'
 import Button from '../Button'
 
 const CorporateForm = () => {
