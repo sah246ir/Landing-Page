@@ -15,7 +15,7 @@ const fallback = <Contact strokeWidth={1.2} size={35} />
 const ContactCard = ({ title, description, className, iconClassName, icon,iconsize }: PropTypes) => {
     const LucideIcon = icon ? lazy(dynamicIconImports[icon]) : undefined;
     return (
-        <div className={'border p-6 bg-white sm:w-[15em] pt-0  flex-col gap-3 rounded-lg ' + className}>
+        <div className={'border p-6 bg-white sm:w-[15em] pt-0  flex-col gap-3 rounded-lg grid place-items-center ' + className}>
 
                 <i className={'size-16 bg-gray-300 text-white grid place-items-center rounded-full -translate-y-6 ' + iconClassName}>
                     <span className="sr-only">Contact icon</span>
