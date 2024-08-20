@@ -61,9 +61,9 @@ const ServicesPage = () => {
 
             <MainHeadingSection className='min-h-[35em]' title="We're here 24/7 to help with anything" description="It was popularised in the 1960s with the release of Letraset sheets containing.">
                 <div className="flex gap-8 mt-20 flex-col sm:flex-row flex-wrap items-center justify-center">
-                    <ContactCard description='It was popularised in the 1960s with the release of Letraset sheets' title='24/7 Email + Chat Support' />
-                    <ContactCard description='It was popularised in the 1960s with the release of Letraset sheets' title='Reach Us Directly' />
-                    <ContactCard description='It was popularised in the 1960s with the release of Letraset sheets' title='24/7 Stay Connected' />
+                    <ContactCard icon="headphones" description='It was popularised in the 1960s with the release of Letraset sheets' title='24/7 Email + Chat Support' />
+                    <ContactCard icon="user" description='It was popularised in the 1960s with the release of Letraset sheets' title='Reach Us Directly' />
+                    <ContactCard icon='clock' description='It was popularised in the 1960s with the release of Letraset sheets' title='24/7 Stay Connected' />
                 </div>
             </MainHeadingSection>
 
