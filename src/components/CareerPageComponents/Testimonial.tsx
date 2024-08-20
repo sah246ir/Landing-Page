@@ -1,12 +1,10 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect } from 'react'
 import TestimonialCard from '../card/TestimonialCard'
 import Heading from '../heading'
 import { ArrowButton } from '../Button'
 import useCarousel from '../../hooks/useCarousel'
 
-interface PropTypes {
-    size: "s"
-}
+ 
 const Testimonial = () => {
     const totalcards = [
         {
@@ -38,7 +36,7 @@ const Testimonial = () => {
             description:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod illo dignissimos ad reiciendis, velit placeat."
         }
     ]
-    const { gonext, goprev, index, translate } = useCarousel({
+    const { gonext, goprev, index } = useCarousel({
         cards: totalcards.length,
 
     })
