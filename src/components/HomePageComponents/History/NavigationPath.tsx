@@ -1,3 +1,4 @@
+import Marker from "../../Marker"
 
 
 interface PropTypes {
@@ -22,9 +23,7 @@ const NavigationPath = ({ years, idx, setIdx }: PropTypes) => {
         <div className="flex h-[3px] absolute left-0 bottom-0 items-center">
           <div style={{ width: `${idx * 100}px`, transition: "width 700ms ease-in-out" }} className="h-full bg-black  flex items-center">
           </div>
-          <div className="border border-black size-4 rounded-full grid place-items-center bg-white">
-            <div className="size-2 rounded-full bg-black"></div>
-          </div>
+          <Marker />
         </div>
         <hr className='h-[3px]' />
       </div>

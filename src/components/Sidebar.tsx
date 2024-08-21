@@ -34,6 +34,7 @@ const Sidebar = ({ isopen,setIsOpen }: PropTypes) => {
 
       <div className="flex flex-col gap-8  w-full p-8">
        <SidebarAction onclick={setIsOpen} title='Home' href='/' />
+       <SidebarAction onclick={setIsOpen} title='About us' href='/about-us' />
        <SidebarAction onclick={setIsOpen} title='Case Study' href='/case-study' />
        <SidebarAction onclick={setIsOpen} title='Investments' href='/investments' />
        <SidebarAction onclick={setIsOpen} title='Blogs' href='/blog' />
