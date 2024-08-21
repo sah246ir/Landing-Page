@@ -26,27 +26,35 @@ interface GroupPropTypes extends PropTypes {
 export const InputGroup = ({ className, type, name, id, placeholder, labelClassName, inputClassName, label }: GroupPropTypes) => {
     return (
         <div className={'flex flex-col gap-1 ' + className}>
-            <label className={'text-md text-gray-600 font-medium ' + labelClassName} htmlFor={id}>{label}</label>
+            <label className={'text-md text-gray-800 font-medium ' + labelClassName} htmlFor={id}>{label}</label>
+            {type!=="file" && <Input className={'border border-gray-400 px-2 py-1.5 rounded-sm ' + inputClassName}
+                placeholder={placeholder}
+                type={type}
+                name={name}
+                id={id} />}
+
+            {type==="file" && 
             <Input className={'border border-gray-400 px-2 py-1.5 rounded-sm ' + inputClassName}
                 placeholder={placeholder}
                 type={type}
                 name={name}
                 id={id} />
+            }
         </div>
     )
 }
 
-interface TextareaProps extends Omit<PropTypes,"type">{
-    rows?:number
+interface TextareaProps extends Omit<PropTypes, "type"> {
+    rows?: number
 }
 export const Textarea = ({ className, rows, name, id, placeholder }: TextareaProps) => {
     return (
         <textarea className={'border border-gray-400 px-2 py-1.5 rounded-sm ' + className}
             placeholder={placeholder}
             name={name}
-            id={id} 
+            id={id}
             rows={rows}
-            />
+        />
     )
 }
 
