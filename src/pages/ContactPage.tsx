@@ -52,7 +52,7 @@ const ContactPage = () => {
                 </div>
             </MainHeadingSection>
 
-            <Section padded center>
+            <Section gray={false} padded center>
                 <div className="flex flex-col md:flex-row justify-between max-w-[1100px] w-full gap-14">
                     <div className="shadow-xl p-3">
                         <Heading>For Corporate  Works Contact Us</Heading>
@@ -75,10 +75,10 @@ const ContactPage = () => {
 
 
 
-            <Section padded center >
+            <Section gray={false} padded center >
                 <div className="flex flex-col max-w-[1100px] gap-11 w-full relative">
                     <Heading>Contact</Heading>
-                    <div className="flex gap-8 flex-wrap">
+                    <div className="flex gap-8 flex-wrap z-30">
                         <div className="w-full flex flex-col gap-1.5">
                             <div className="font-medium text-gray-800">Address</div>
                             <div className="flex items-center gap-2">
@@ -112,12 +112,12 @@ const ContactPage = () => {
                         </div>
                     </div>
 
-                    <div className="sm:w-[26em]">
+                    <div className="sm:w-[26em] z-30">
                         <Heading className='text-xl text-gray-700 mb-4'>Contact Form</Heading>
                         <CorporateForm />
                     </div>
 
-                    <img className='absolute -z-10 bottom-0 right-0 w-[45em] opacity-35' src={map} alt="city map" />
+                    <img className='absolute z-10 bottom-0 right-0 w-[45em] opacity-35' src={map} alt="city map" />
                 </div>
 
 

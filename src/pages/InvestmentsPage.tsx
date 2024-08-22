@@ -28,7 +28,7 @@ const InvestmentsPage = () => {
             </Section>
 
 
-            <Section padded center>
+            <Section gray={false} padded center>
                 <div className="max-w-[1100px] w-full flex items-center justify-center flex-col gap-5 ">
                     <Heading className='!font-light mb-5'>Competitive Edge</Heading>
                     <div className="flex gap-10 flex-col sm:flex-row">
@@ -58,7 +58,7 @@ const InvestmentsPage = () => {
                 </div>
             </Section>
 
-            <Section  center className='py-12'>
+            <Section gray={false} padded  center className='py-12'>
                 <div className="max-w-[1100px] w-full flex flex-col md:flex-row items-center justify-between gap-5 text-center md:text-left">
                     <div className="flex flex-col gap-5 px-7 w-full">
                         <div>
@@ -137,7 +137,7 @@ const InvestmentsPage = () => {
                 </div>
             </Section>
 
-            <Section padded center >
+            <Section gray={false} padded center >
                 <div className="max-w-[1100px]  flex items-center   gap-10 flex-col sm:flex-row text-center sm:text-left">
                     <div className="">
                         <img className='w-[500px]' src={leaders} alt="description" />
@@ -159,15 +159,16 @@ const InvestmentsPage = () => {
 
 
 
-            <Section padded style={{ marginInline: "auto" }} className="  max-w-[1000px] flex-col items-center gap-5">
-                <Heading className='text-center !mb-0'>
-                    How Can We Help You?
-                </Heading>
-                <p className='text-center text-sm text-gray-600'>It was popularised in the 1960s with the release of Letraset sheets containing</p>
-
-                <Button className='bg-black text-white rounded-full font-normal'>
-                    Contact Us
-                </Button>
+            <Section center padded style={{ marginInline: "auto" }} >
+                <div className="flex max-w-[1000px] flex-col items-center gap-5">
+                    <Heading className='text-center !mb-0'>
+                        How Can We Help You?
+                    </Heading>
+                    <p className='text-center text-sm text-gray-600'>It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                    <Button className='bg-black text-white rounded-full font-normal'>
+                        Contact Us
+                    </Button>
+                </div>
 
             </Section>
 

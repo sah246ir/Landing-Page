@@ -16,7 +16,7 @@ const AboutPage = () => {
     })
     return (
         <div>
-            <Section padded center>
+            <Section padded center className='min-h-[55em]'>
                 <div className='w-full flex flex-col justify-center items-center gap-12'>
                     <div className="max-w-[1100px] flex justify-between w-full items-end ">
                         <div>
@@ -42,7 +42,7 @@ const AboutPage = () => {
 
             </Section>
 
-            <Section padded center >
+            <Section gray={false} padded center className='min-h-[35em]' >
                 <div className="w-[1100px] flex items-center justify-center gap-11 flex-col sm:flex-row text-center sm:text-left">
                     <div className="">
                         <img className='w-full' src={img} alt="" />
@@ -89,7 +89,7 @@ const AboutPage = () => {
             </MainHeadingSection>
 
 
-            <Section padded className='mb-10 flex justify-center'>
+            <Section gray={false} padded className='mb-10 flex justify-center'>
                 <div className="w-[1100px] justify-center overflow-hidden">
                     <div className="p-5 flex sm:flex-row gap-5 sm:items-end justify-between flex-col items-center text-center sm:text-left">
                         <div>

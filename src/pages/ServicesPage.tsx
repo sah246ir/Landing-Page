@@ -10,7 +10,7 @@ const ServicesPage = () => {
     return (
         <div>
             <MainHeadingSection title='Our Services' description='it to make a type specimen book. It has survived not only five centuries' />
-            <Section padded center>
+            <Section gray={false} padded center>
                 <div className="max-w-[1100px] flex items-center justify-center flex-col gap-5 ">
                     <div className="max-h-[25em] overflow-hidden">
                         <img alt='' style={{ objectPosition: "center", objectFit: "cover" }} className='w-full' src={img1} />
@@ -59,7 +59,7 @@ const ServicesPage = () => {
                 </div>
             </Section>
 
-            <MainHeadingSection className='min-h-[35em]' title="We're here 24/7 to help with anything" description="It was popularised in the 1960s with the release of Letraset sheets containing.">
+            <MainHeadingSection gray={false} className='min-h-[35em]' title="We're here 24/7 to help with anything" description="It was popularised in the 1960s with the release of Letraset sheets containing.">
                 <div className="flex gap-8 mt-20 flex-col sm:flex-row flex-wrap items-center justify-center">
                     <ContactCard icon="headphones" description='It was popularised in the 1960s with the release of Letraset sheets' title='24/7 Email + Chat Support' />
                     <ContactCard icon="user" description='It was popularised in the 1960s with the release of Letraset sheets' title='Reach Us Directly' />
@@ -67,15 +67,16 @@ const ServicesPage = () => {
                 </div>
             </MainHeadingSection>
 
-            <Section padded style={{ marginInline: "auto" }} className="  max-w-[1000px] flex-col items-center gap-5">
-                <Heading className='text-center !mb-0'>
-                    How Can We Help You?
-                </Heading>
-                <p className='text-center text-sm text-gray-600'>It was popularised in the 1960s with the release of Letraset sheets containing</p>
-
-                <Button className='bg-black text-white rounded-full font-normal'>
-                    Contact Us
-                </Button>
+            <Section center padded style={{ marginInline: "auto" }} >
+                <div className="flex max-w-[1000px] flex-col items-center gap-5">
+                    <Heading className='text-center !mb-0'>
+                        How Can We Help You?
+                    </Heading>
+                    <p className='text-center text-sm text-gray-600'>It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                    <Button className='bg-black text-white rounded-full font-normal'>
+                        Contact Us
+                    </Button>
+                </div>
 
             </Section>
         </div>

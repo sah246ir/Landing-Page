@@ -11,7 +11,7 @@ const BlogPage = () => {
       <MainHeadingSection title='Company Blogs' description='it to make a type specimen book. It has survived not only five centuries' />
 
 
-      <Section padded style={{ marginInline: "auto" }} className="flex-col md:flex-row p-5 max-w-[1000px] gap-10">
+      <Section gray={false} padded style={{ marginInline: "auto" }} className="flex-col md:flex-row p-5 max-w-[1000px] gap-10">
         <div className='flex flex-col p-5 gap-10'>
           <div className="flex flex-wrap gap-11 justify-start">
             <CaseStudyBlogCard size='xs' className='mb-0 flex-grow ' />
