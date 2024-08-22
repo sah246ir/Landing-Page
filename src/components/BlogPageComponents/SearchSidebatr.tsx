@@ -4,7 +4,7 @@ import { Search } from 'lucide-react'
 
 const SearchSidebar = () => {
     return (
-        <div className='flex flex-col gap-6'>
+        <div className='flex flex-col gap-6 bg-gray-50 p-2 py-4'>
             <div className="flex items-center">
                 <input type="text" placeholder='search' className='px-2 py-1 border w-full' />
                 <Button className='!px-2 bg-black text-white h-full rounded-r-md'>
