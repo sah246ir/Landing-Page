@@ -39,7 +39,7 @@ const PortfolioSection = () => {
                 </div>
             </div>
 
-            <div className="flex">
+            <div className="flex w-full">
                 {len.map((_,i)=>{
                     return(
                         <Card idx={i+1} translate={`${-100*idx}%`} /> 

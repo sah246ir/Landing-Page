@@ -46,10 +46,10 @@ const CaseStudiesPage = () => {
           </Heading>
           <div className="flex flex-wrap gap-5 justify-between items-start">
             <CaseStudyBlogCard size='s' className='mb-0 flex-grow lg:flex-grow- ' ContentclassName='!rounded-0 w-full' />
-            <div className=" flex flex-col gap-10">
-              <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between  ' />
-              <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between  ' />
-              <HorizontalBlogCard size='m' ContentclassName='flex flex-col h-full justify-between  ' />
+            <div className=" flex flex-col gap-10 w-full">
+              <HorizontalBlogCard  size='m' ContentclassName='flex flex-col h-full justify-between  ' />
+              <HorizontalBlogCard  size='m' ContentclassName='flex flex-col h-full justify-between  ' />
+              <HorizontalBlogCard  size='m' ContentclassName='flex flex-col h-full justify-between  ' />
             </div>
           </div>
         </div>

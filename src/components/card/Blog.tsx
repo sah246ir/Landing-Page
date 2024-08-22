@@ -10,8 +10,8 @@ interface PropTypes {
 }
 export const Blog = ({ size, img, className, children,horizontal }: PropTypes) => {
     return (
-        <div className={`${size === "l" ? "w-[23em]" : ""} ${size === "s" ? "w-[18em]" : ""} ${size === "xs" ? "w-[14em]" : ""}  ${size === "m" ? "w-[20em] " : ""} relative flex ${horizontal?"flex-row":"flex-col"} items-center ${className}`}>
-            <img className='w-full' src={img1} alt="" />
+        <div className={`${size === "l" ? "sm:w-[23em]" : ""} ${size === "s" ? "sm:w-[18em]" : ""} ${size === "xs" ? "sm:w-[14em]" : ""}  ${size === "m" ? "sm:w-[20em] " : ""} relative flex flex-col ${horizontal?"sm:flex-row ":" "} sm:items-center ${className}`}>
+            <img className='sm:w-full' src={img1} alt="" />
             {children}
         </div>
     )

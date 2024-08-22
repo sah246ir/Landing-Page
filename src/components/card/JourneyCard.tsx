@@ -7,7 +7,7 @@ interface PropTypes{
 }
 const JourneyCard = ({className,year}:PropTypes) => {
   return (
-    <div className={'bg-white w-[20em] text-left p-4 shadow rounded ' + className}>
+    <div className={'bg-white w-[13em] text-left p-4 shadow rounded ' + className}>
       <Heading className='mb-2 text-xl text-gray-700' >
         {year}
       </Heading>

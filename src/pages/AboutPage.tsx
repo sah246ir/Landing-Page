@@ -18,7 +18,7 @@ const AboutPage = () => {
         <div>
             <Section padded center className='min-h-[55em]'>
                 <div className='w-full flex flex-col justify-center items-center gap-12'>
-                    <div className="max-w-[1100px] flex justify-between w-full items-end ">
+                    <div className="max-w-[1100px] flex flex-col sm:flex-row justify-between w-full items-center ">
                         <div>
                             <h1 className='tracking-wider mb-2'>ABOUT US</h1>
                             <h2 className='text-5xl font-semibold mb-4'>
@@ -26,16 +26,16 @@ const AboutPage = () => {
                                 Speaks For Itself
                             </h2>
                         </div>
-                        <p className='w-[25em] text-gray-700 text-sm'>
+                        <p className='max-w-[25em] text-gray-700 text-sm'>
                             It was popularised in the 1960s with the release of
                             Letraset sheets containing Lorem Ipsum passages.It
                             was popularised in the 1960s with the release
                         </p>
                     </div>
 
-                    <div className="w-[1100px]  flex gap-4">
+                    <div className="max-w-[1100px]  flex gap-4 flex-col sm:flex-row">
                         <img style={{ objectFit: "cover" }} className='w-full max-h-[400px]' src={img2} alt="" />
-                        <img style={{ objectFit: "cover" }} className='w-[45%]' src={img} alt="" />
+                        <img style={{ objectFit: "cover" }} className='sm:w-[45%]' src={img} alt="" />
                     </div>
                 </div>
 
@@ -78,7 +78,7 @@ const AboutPage = () => {
                                     return (
                                         <div className={'relative flex items-center justify-start gap-4 ' + (even?"md:flex-row-reverse md:-translate-x-full":"")}>
                                             <Marker concentricSize={.65} color='gray' className={"size-[25px] -translate-x-[10px] "+(even?"md:translate-x-[14.5px]":"")} />
-                                            <JourneyCard year={yr} className="md:w-[20em]" />
+                                            <JourneyCard year={yr} className="sm:w-[30em]" />
                                         </div>
                                     )
                                 })
