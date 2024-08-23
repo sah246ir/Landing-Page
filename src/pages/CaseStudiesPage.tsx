@@ -39,14 +39,14 @@ const CaseStudiesPage = () => {
         </div>
       </Section>
 
-      <Section gray padded style={{ marginInline: "auto" }} className="!block p-5 ">
-        <div className="max-w-[1000px] ">
+      <Section gray padded center style={{ marginInline: "auto" }} className=" p-5 ">
+        <div className="max-w-[1000px] w-full">
           <Heading className='text-center mb-12'>
             See Our Portfolio
           </Heading>
-          <div className="flex flex-wrap gap-5 justify-between items-start">
-            <CaseStudyBlogCard size='s' className='mb-0 flex-grow lg:flex-grow- ' ContentclassName='!rounded-0 w-full' />
-            <div className=" flex flex-col gap-10 w-full">
+          <div className="w-full flex sm:flex-row flex-col gap-5 justify-between items-start">
+            <CaseStudyBlogCard size='s' className='mb-0 flex-grow lg:flex-grow- w-full' ContentclassName='!rounded-0 w-full' />
+            <div className=" flex flex-col gap-10">
               <HorizontalBlogCard  size='m' ContentclassName='flex flex-col h-full justify-between  ' />
               <HorizontalBlogCard  size='m' ContentclassName='flex flex-col h-full justify-between  ' />
               <HorizontalBlogCard  size='m' ContentclassName='flex flex-col h-full justify-between  ' />
