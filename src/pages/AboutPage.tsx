@@ -78,7 +78,7 @@ const AboutPage = () => {
                                     return (
                                         <div className={'relative flex items-center justify-start gap-4 ' + (even?"md:flex-row-reverse md:-translate-x-full":"")}>
                                             <Marker concentricSize={.65} color='gray' className={"size-[25px] -translate-x-[10px] "+(even?"md:translate-x-[14.5px]":"")} />
-                                            <JourneyCard year={yr} className="sm:w-[30em]" />
+                                            <JourneyCard year={yr} className="w-[15em] sm:w-[25em] md:w-[20em]" />
                                         </div>
                                     )
                                 })
