@@ -17,10 +17,7 @@ const InvestmentsPage = () => {
                         <img alt='' style={{ objectPosition: "center", objectFit: "cover" }} className='w-full' src={img1} />
                     </div>
                     <p className='md:w-[65%] text-center text-xs text-gray-600 leading-loose'>
-                        t was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.It
-                        was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.It was
-                        popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
-                    </p >
+                    Focused on delivering reliable returns through strategic investments in real estate, emerging businesses, and consumer experiences, leveraging a disciplined approach and local expertise to maximize value and ensure project success.                    </p >
                     <Button className='bg-black text-white !font-light rounded-full'>
                         Learn More
                     </Button>
@@ -64,9 +61,7 @@ const InvestmentsPage = () => {
                         <div>
                             <Heading className='mb-4'>What we can do for you</Heading>
                             <p className=' text-sm text-gray-600 leading-loose'>
-                                it to make a type specimen book. It has survived not
-                                only five centuries, but also.it to make a type specimen
-                                book. It has survived not only five.
+                            We offer tailored investment strategies designed to maximize returns through expertly managed and diversified portfolios in real estate, new-age businesses, and consumer experiences.
                             </p>
                         </div>
 
@@ -144,10 +139,7 @@ const InvestmentsPage = () => {
                     </div>
                     <div className="sm:w-[400px]">
                         <Heading>Meet the leaders</Heading>
-                        <p className='text-sm text-gray-700'>It was popularised in the 1960s with the release of Letraset
-                            sheets containing Lorem Ipsum passages.It was popularised in
-                            the 1960s with the release of Letraset sheets containing Lorem
-                            Ipsum passages.
+                        <p className='text-sm text-gray-700'>Explore the backgrounds and expertise of our visionary leaders who are dedicated to steering our company towards innovation and success. Their diverse experiences and strategic insights drive our mission and shape our future, ensuring we remain at the forefront of our industry.
                         </p>
                         <ArrowButton direction='r' size={30} className='transition-transform duration-500 mt-5 tracking-wider text-sm hover:translate-x-2'>
                             &nbsp;

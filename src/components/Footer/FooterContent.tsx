@@ -1,9 +1,10 @@
-
+import React from 'react'
+const logo = require("../../img/logo.jpg")
 const FooterContent = () => {
     return (
         <div className='flex flex-col text-center md:text-left md:flex-row items-center md:items-start gap-3 divide-x  divide-gray-200'>
             <div className="flex-grow px-5">
-                <h1 className='text-4xl mb-2 font-normal'>LOGO</h1>
+                <img alt='' width={200} src={logo} className='text-4xl font-normal mb-2' /> 
                 <p className='text-gray-700 text-xs'>Lorem Ipsum has been the industry's<br />
                     standard dummy text ever since the 1500s</p>
             </div>

@@ -3,12 +3,21 @@ import { ArrowButton } from '../../Button'
 import ServiceCard from './ServiceCard'
 import Section from '../../Section'
 const ServiceSection = () => {
-    const len = ["", "", ""]
+    const services = [
+        [
+            {heading:"Construction Excellence",subheading:"We specialize in delivering high-quality construction projects that blend precision with innovation, ensuring every detail meets the highest standards."},
+            {heading:"Innovative Design",subheading:"Our design services focus on creating visionary spaces that combine functionality with aesthetic appeal, setting new benchmarks for creativity and sustainability."},
+        ],
+        [
+            {heading:" Project Management",subheading:"From inception to completion, our expert project management team ensures smooth operations, timely delivery, and exceptional results, keeping your project on track and within budget."},
+            {heading:"Sustainable Solutions",subheading:"We are committed to incorporating eco-friendly practices and materials into our projects, aiming to create sustainable and energy-efficient environments that benefit both clients and the planet."},
+        ]
+    ]
     const [idx, setIdx] = useState<number>(0)
 
     const gonext = () => {
         setIdx(prev => {
-            if (prev === len.length - 1) {
+            if (prev === services.length - 1) {
                 return 0
             }
             return prev + 1
@@ -17,7 +26,7 @@ const ServiceSection = () => {
     const goprev = () => {
         setIdx(prev => {
             if (prev === 0) {
-                return len.length - 1
+                return services.length - 1
             }
             return prev - 1
         })
@@ -38,11 +47,15 @@ const ServiceSection = () => {
                     </div>
                 </div>
                 <div className="flex w-full">
-                    {len.map(_ => {
+                    {services.map(servicegroup => {
                         return (
                             <div style={{translate:`${-100*idx}%`,transition:"translate 700ms ease-in-out"}} className="flex justify-center min-w-full gap-7 p-5">
-                                <ServiceCard />
-                                <ServiceCard />
+                                {servicegroup.map(service=>{
+                                    return(
+                                         <ServiceCard heading={service.heading} subheading={service.subheading}/>
+
+                                    )
+                                })} 
                             </div>
                         )
                     })}

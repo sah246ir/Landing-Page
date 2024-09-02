@@ -23,15 +23,10 @@ const CareersPage = () => {
                     </div>
                     <div className="sm:w-[30em]">
                         <h2 className='text-5xl font-semibold mb-4'>
-                            Lorem Lipsum
+                            Our Culture
                         </h2>
                         <p className='text-sm text-gray-700 leading-relaxed'>
-                            It was popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages.It was popularised in the 1960s with
-                            the release of Letraset sheets containing Lorem Ipsum passages.It was
-                            popularised in the 1960s with the release of Letraset sheets containing
-                            Lorem Ipsum passages.It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages.
+                        Discover the dynamic and inclusive environment that defines our workplace. We foster a culture of collaboration, innovation, and respect, where every team member is empowered to contribute and grow. Our commitment to professional development, work-life balance, and open communication ensures a thriving and supportive atmosphere for all.
                         </p>
                         <ArrowButton direction='r' size={40} className='transition-transform duration-500 mt-5 tracking-wider text-base hover:translate-x-2'>
                             &nbsp;

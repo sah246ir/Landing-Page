@@ -12,7 +12,7 @@ const img2 = require("../img/swiss2.webp")
 const AboutPage = () => {
     const years = [2021, 2022, 2023, 2024]
     const { goprev, gonext, translate } = useCarousel({
-        cards: 2
+        cards: 1
     })
     return (
         <div>
@@ -21,15 +21,12 @@ const AboutPage = () => {
                     <div className="max-w-[1100px] flex flex-col sm:flex-row justify-between w-full items-center ">
                         <div>
                             <h1 className='tracking-wider mb-2'>ABOUT US</h1>
-                            <h2 className='text-5xl font-semibold mb-4'>
-                                Our Delivery<br />
-                                Speaks For Itself
+                            <h2 className='text-3xl font-semibold mb-4 max-w-[450px]'>
+                            Empowering Growth Through Strategic Investments and Innovative Business Consulting
                             </h2>
                         </div>
                         <p className='max-w-[25em] text-gray-700 text-sm'>
-                            It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages.It
-                            was popularised in the 1960s with the release
+                        At Classic Group, we specialize in transforming businesses with innovative solutions, combining expertise and integrity to deliver results that stand the test of time. Our commitment is to your success, helping you navigate challenges and seize opportunities in a dynamic world.
                         </p>
                     </div>
 
@@ -51,13 +48,8 @@ const AboutPage = () => {
                         <h2 className='text-5xl font-mediumfs mb-4'>
                             Vinit Story
                         </h2>
-                        <p className='text-sm text-gray-700 leading-relaxed'>
-                            It was popularised in the 1960s with the release of Letraset sheets
-                            containing Lorem Ipsum passages.It was popularised in the 1960s with
-                            the release of Letraset sheets containing Lorem Ipsum passages.It was
-                            popularised in the 1960s with the release of Letraset sheets containing
-                            Lorem Ipsum passages.It was popularised in the 1960s with the release of
-                            Letraset sheets containing Lorem Ipsum passages.
+                        <p className='text-sm text-gray-700 leading-relaxed'> 
+Classic Group's journey began with a vision to redefine industry standards through excellence and innovation. From humble beginnings, they've grown into a trusted name, consistently delivering high-quality solutions that drive progress. Their story is one of dedication, perseverance, and a relentless pursuit of greatness, always putting clients at the heart of everything they do.
                         </p>
                         <ArrowButton direction='r' size={40} className='transition-transform duration-500 mt-5 tracking-wider text-base hover:translate-x-2'>
                             &nbsp;
@@ -104,12 +96,12 @@ const AboutPage = () => {
                         </div>
                     </div>
                     <div className="flex w-full">
-                        {[1, 1].map(_ => {
+                        {[1].map(_ => {
                             return (
                                 <div style={{ translate, transition: "translate 700ms ease-in-out" }} className="flex justify-center min-w-full gap-7 p-5">
-                                    <LeaderCard />
-                                    <LeaderCard />
-                                    <LeaderCard />
+                                    <LeaderCard name='Manoharlal Gupta' designation='Visionary founder' /> 
+                                    <LeaderCard name='Kriti Gupta' designation='CEO' /> 
+                                    <LeaderCard name='Vinit Gupta' designation='Dynamic leader' /> 
                                 </div>
                             )
                         })}
