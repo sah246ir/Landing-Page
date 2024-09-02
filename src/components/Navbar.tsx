@@ -7,7 +7,7 @@ const Navbar = ({ className }: { className?: string }) => {
     return (
         <>
             <nav className={'w-full   top-0 flex justify-between px-4 py-2 ' + className}>
-                <img width={115} src={logo} className='text-4xl font-normal' /> 
+                <img alt='' width={115} src={logo} className='text-4xl font-normal' /> 
 
                 <HamburgerIcon isopen={isopen} setIsOpen={setIsOpen}/>
             </nav>
