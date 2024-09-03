@@ -1,4 +1,5 @@
 import Button from "../../Button"
+import SubHeading from "../../SubHeading"
 
 const img = require("../../../img/swiss2.webp")
 
@@ -14,10 +15,10 @@ const Card = ({idx,translate}:PropTypes) => {
             </div>
             <div className="p-5">
                 <h1 className='text-3xl mb-2 font-medium'>LOGO-{idx}</h1>
-                <p className='text-sm   text-gray-800 mb-5'>
+                <SubHeading className='text-sm mb-5'>
                     It was popularised in the 1960s with the release of Letraset
                     sheets containing Lorem Ipsum passages.
-                </p>
+                </SubHeading>
                 <Button>
                     See All Case Studies
                 </Button>

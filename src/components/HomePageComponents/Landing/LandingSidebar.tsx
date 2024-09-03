@@ -1,4 +1,5 @@
 import { ArrowButton } from '../../Button'
+import SubHeading from '../../SubHeading'
 
 const LandingSidebar = () => {
   return (
@@ -9,10 +10,10 @@ const LandingSidebar = () => {
       </div>
 
       <div className="">
-        <p className='text-sm text-gray-800'>It was popularised in the
+        <SubHeading>It was popularised in the
           1960s with the release of
           Letraset sheets.
-        </p>
+        </SubHeading>
         <ArrowButton direction='r' size={40} className='transition-transform duration-500 mt-5 tracking-wider text-md hover:translate-x-2'>
           &nbsp;
           <span>Case Study</span>

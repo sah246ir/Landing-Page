@@ -1,4 +1,5 @@
 import { ArrowButton } from '../../Button'
+import SubHeading from '../../SubHeading'
 const img = require("../../../img/swiss2.webp")
 
 interface PropTypes {
@@ -13,10 +14,10 @@ const HistoryCard = ({ year, translate }: PropTypes) => {
                 </div>
                 <div className="">
                     <h1 className='text-xl font-semibold mb-2'>Journey title</h1>
-                    <p className='text-gray-800'>It was popularised in the 1960s with the release of Letraset
+                    <SubHeading className='!text-lg '>It was popularised in the 1960s with the release of Letraset
                         sheets containing Lorem Ipsum passages.It was popularised in
                         the 1960s with the release of Letraset sheets containing Lorem
-                        Ipsum passages.</p>
+                        Ipsum passages.</SubHeading>
                     <ArrowButton direction='r' size={40} className='transition-transform duration-500 mt-5 tracking-wider text-md hover:translate-x-2'>
                         &nbsp;
                         <span>Learn More</span>

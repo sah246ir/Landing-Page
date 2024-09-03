@@ -1,4 +1,5 @@
 import { ArrowButton } from '../../Button'
+import SubHeading from '../../SubHeading'
 const img = require("../../../img/swiss2.webp")
 
 interface Proptypes{
@@ -18,7 +19,7 @@ const ServiceCard = ({heading,subheading}:Proptypes) => {
             </div>
             <img className='w-full' src={img} alt="" />
             <h1 className='font-medium my-2 text-gray-800'>{heading}</h1>
-            <p className='text-xs text-gray-600 mb-10'>{subheading}</p>
+            <SubHeading className='text-xs mb-10'>{subheading}</SubHeading>
         </div>
     )
 }

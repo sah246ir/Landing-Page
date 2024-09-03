@@ -7,6 +7,7 @@ import MainHeadingSection from '../components/MainHeadingSection'
 import JourneyCard from '../components/card/JourneyCard'
 import Marker from '../components/Marker'
 import Heading from '../components/heading'
+import SubHeading from '../components/SubHeading'
 const img = require("../img/ceo.jpg")
 const img2 = require("../img/swiss2.webp")
 
@@ -26,9 +27,9 @@ const AboutPage = () => {
                             Empowering Growth Through Strategic Investments and Innovative Business Consulting
                             </Heading>
                         </div>
-                        <p className='max-w-[25em] text-gray-700 text-sm'>
+                        <SubHeading className='max-w-[25em] '>
                         At Classic Group, we specialize in transforming businesses with innovative solutions, combining expertise and integrity to deliver results that stand the test of time. Our commitment is to your success, helping you navigate challenges and seize opportunities in a dynamic world.
-                        </p>
+                        </SubHeading>
                     </div>
 
                     <div className="max-w-[1100px]  flex gap-4 flex-col sm:flex-row">
@@ -49,9 +50,9 @@ const AboutPage = () => {
                         <Heading className='text-5xl font-mediumfs mb-4'>
                             Vinit Story
                         </Heading>
-                        <p className='text-sm text-gray-700 leading-relaxed'> 
+                        <SubHeading className=' leading-relaxed'> 
 Classic Group's journey began with a vision to redefine industry standards through excellence and innovation. From humble beginnings, they've grown into a trusted name, consistently delivering high-quality solutions that drive progress. Their story is one of dedication, perseverance, and a relentless pursuit of greatness, always putting clients at the heart of everything they do.
-                        </p>
+                        </SubHeading>
                         <ArrowButton direction='r' size={40} className='transition-transform duration-500 mt-5 tracking-wider text-base hover:translate-x-2'>
                             &nbsp;
                             <span>Learn More</span>
