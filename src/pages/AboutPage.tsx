@@ -6,6 +6,7 @@ import LeaderCard from '../components/card/LeaderCard'
 import MainHeadingSection from '../components/MainHeadingSection'
 import JourneyCard from '../components/card/JourneyCard'
 import Marker from '../components/Marker'
+import Heading from '../components/heading'
 const img = require("../img/ceo.jpg")
 const img2 = require("../img/swiss2.webp")
 
@@ -21,9 +22,9 @@ const AboutPage = () => {
                     <div className="max-w-[1100px] flex flex-col sm:flex-row justify-between w-full items-center ">
                         <div>
                             <h1 className='tracking-wider mb-2'>ABOUT US</h1>
-                            <h2 className='text-3xl font-semibold mb-4 max-w-[450px]'>
+                            <Heading className='text-3xl font-semibold mb-4 max-w-[450px]'>
                             Empowering Growth Through Strategic Investments and Innovative Business Consulting
-                            </h2>
+                            </Heading>
                         </div>
                         <p className='max-w-[25em] text-gray-700 text-sm'>
                         At Classic Group, we specialize in transforming businesses with innovative solutions, combining expertise and integrity to deliver results that stand the test of time. Our commitment is to your success, helping you navigate challenges and seize opportunities in a dynamic world.
@@ -45,9 +46,9 @@ const AboutPage = () => {
                         <img className='w-full' src={img} alt="" />
                     </div>
                     <div className="sm:w-[55em]">
-                        <h2 className='text-5xl font-mediumfs mb-4'>
+                        <Heading className='text-5xl font-mediumfs mb-4'>
                             Vinit Story
-                        </h2>
+                        </Heading>
                         <p className='text-sm text-gray-700 leading-relaxed'> 
 Classic Group's journey began with a vision to redefine industry standards through excellence and innovation. From humble beginnings, they've grown into a trusted name, consistently delivering high-quality solutions that drive progress. Their story is one of dedication, perseverance, and a relentless pursuit of greatness, always putting clients at the heart of everything they do.
                         </p>
@@ -86,9 +87,9 @@ Classic Group's journey began with a vision to redefine industry standards throu
                     <div className="p-5 flex sm:flex-row gap-5 sm:items-end justify-between flex-col items-center text-center sm:text-left">
                         <div>
                             <h1 className='tracking-wider mb-2'>WHAT WE PROVIDE</h1>
-                            <h2 className='text-5xl font-semibold'>
+                            <Heading className='text-5xl font-semibold'>
                                 Our Leaders
-                            </h2>
+                            </Heading>
                         </div>
                         <div className='flex gap-1'>
                             <ArrowButton onClick={goprev} size={55} direction='l' />
