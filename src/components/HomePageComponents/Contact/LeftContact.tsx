@@ -1,16 +1,18 @@
 import { LocateFixedIcon, MailOpen, PhoneCallIcon } from 'lucide-react'
+import Heading from '../../heading'
+import SubHeading from '../../SubHeading'
 
 const LeftContact = () => {
   return (
     <div className=''>
       <div>
         <h1 className='tracking-widest mb-3'>CONTACT US</h1>
-        <h2 className='text-4xl font-semibold tracking-wider'>
+        <Heading className='text-4xl font-semibold tracking-wider'>
           We Look<br/> 
-          Forward to You</h2>
+          Forward to You</Heading>
 
-        <p className='text-gray-600 text-xs mt-3 tracking-wider'>Lorem Ipsum has been the industry's standard<br />
-          dummy text ever since the 1500s.</p>
+        <SubHeading className='text-xs mt-3 tracking-wider'>Lorem Ipsum has been the industry's standard<br />
+          dummy text ever since the 1500s.</SubHeading>
       </div>
 
       <hr className="my-5 bg-gray-600 h-[2px] w-[55%]" />

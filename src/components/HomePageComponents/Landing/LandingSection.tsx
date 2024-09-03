@@ -1,5 +1,7 @@
 import LandingSidebar from './LandingSidebar'
 import { ArrowButton } from '../../Button'
+import Heading from '../../heading'
+import SubHeading from '../../SubHeading'
 
 const LandingSection = () => {
     return (
@@ -11,12 +13,12 @@ const LandingSection = () => {
                         {/* <h1 className='text-4xl mb-2 font-normal'>LOGO</h1> */}
                     </div>
                     <div className='p-5 relative flex-grow'>
-                    <h2 className='text-3xl font-semibold mb-4 max-w-[450px]'>
+                    <Heading className='text-3xl font-semibold mb-4 max-w-[450px]'>
                             Empowering Growth Through Strategic Investments and Innovative Business Consulting
-                            </h2>
-                        <p className='text-sm p-0 max-w-[450px]  border-gray-800 border-0 border-l-[1.5px] px-3 text-gray-800'>
+                            </Heading>
+                        <SubHeading className='max-w-[450px]  border-gray-800 border-0 border-l-[1.5px] px-3'>
                             At Classic Group, we drive growth and innovation across industries, partnering with businesses to achieve lasting success through integrity and collaboration.
-                        </p>
+                        </SubHeading>
                         <ArrowButton direction='r' size={40} className='transition-transform duration-500 mt-5 tracking-wider text-md hover:translate-x-2'>
                             &nbsp;
                             <span>Learn More</span>

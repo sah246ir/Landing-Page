@@ -4,6 +4,7 @@ import Section from '../components/Section'
 import Heading from '../components/heading'
 import Button from '../components/Button'
 import ContactCard from '../components/card/ContactCard'
+import SubHeading from '../components/SubHeading'
 const img1 = require("../img/swiss2.webp")
 
 const ServicesPage = () => {
@@ -41,19 +42,19 @@ const ServicesPage = () => {
                             <Heading className='min-w-[12em] font-normal  partial partial-sm'>
                                 Demo Title
                             </Heading>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi quis dolorem nulla facilis repudiandae perferendis totam maxime inventore debitis! Odio, nisi fugit rem blanditiis iste iure animi cumque atque.</p>
+                            <SubHeading>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi quis dolorem nulla facilis repudiandae perferendis totam maxime inventore debitis! Odio, nisi fugit rem blanditiis iste iure animi cumque atque.</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
                             <Heading className='min-w-[12em] font-normal  partial partial-sm'>
                                 Demo Title
                             </Heading>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi quis dolorem nulla facilis repudiandae perferendis totam maxime inventore debitis! Odio, nisi fugit rem blanditiis iste iure animi cumque atque.</p>
+                            <SubHeading>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi quis dolorem nulla facilis repudiandae perferendis totam maxime inventore debitis! Odio, nisi fugit rem blanditiis iste iure animi cumque atque.</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
                             <Heading className='min-w-[12em] font-normal  partial partial-sm'>
                                 Demo Title
                             </Heading>
-                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi quis dolorem nulla facilis repudiandae perferendis totam maxime inventore debitis! Odio, nisi fugit rem blanditiis iste iure animi cumque atque.</p>
+                            <SubHeading>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi quis dolorem nulla facilis repudiandae perferendis totam maxime inventore debitis! Odio, nisi fugit rem blanditiis iste iure animi cumque atque.</SubHeading>
                         </div>
                     </div>
                 </div>
@@ -72,7 +73,7 @@ const ServicesPage = () => {
                     <Heading className='text-center !mb-0'>
                         How Can We Help You?
                     </Heading>
-                    <p className='text-center text-sm text-gray-600'>It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                    <SubHeading className='text-center '>It was popularised in the 1960s with the release of Letraset sheets containing</SubHeading>
                     <Button className='bg-black text-white rounded-full font-normal'>
                         Contact Us
                     </Button>

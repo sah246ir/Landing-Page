@@ -1,11 +1,13 @@
 import Button from '../Button'
+import Heading from '../heading'
+import SubHeading from '../SubHeading'
 
 const NewsLetterFooter = () => {
     return (
         <div className='flex flex-col text-center md:flex-row md:text-left justify-between gap-5'> 
             <div className="">
-                <h1 className='font-semibold text-4xl'>Subscribe Our News Letter</h1>
-                <p className='text-xs mt-1 text-gray-500'>Lorem Ipsum has been the industry's text ever.</p>
+                <Heading >Subscribe Our News Letter</Heading>
+                <SubHeading className='text-xs mt-1'>Lorem Ipsum has been the industry's text ever.</SubHeading>
             </div> 
             <div className="flex bg-white max-h-11 rounded-l-full rounded-r-full items-center">
                 <div className="w-full md:w-fit  p-4 "> 

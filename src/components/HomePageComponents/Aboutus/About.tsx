@@ -1,5 +1,7 @@
 import { ArrowButton } from '../../Button' 
+import Heading from '../../heading'
 import Section from '../../Section'
+import SubHeading from '../../SubHeading'
 const img = require("../../../img/swiss.jpg")
 const About = () => {
     return (
@@ -7,13 +9,12 @@ const About = () => {
             <div className="w-[1100px] flex items-center justify-center gap-11 flex-col sm:flex-row text-center sm:text-left">
                 <div className="sm:w-[30em]">
                     <h1 className='tracking-wider mb-2'>ABOUT US</h1>
-                    <h2 className='text-3xl font-semibold mb-4 max-w-[450px]'>
+                    <Heading className=' font-semibold mb-4 max-w-[450px]'>
                             Empowering Growth Through Strategic Investments and Innovative Business Consulting
-                            </h2>
-                    <p className='text-sm text-gray-700'> 
+                            </Heading>
+                    <SubHeading> 
                     At Classic Group, we specialize in transforming businesses with innovative solutions, combining expertise and integrity to deliver results that stand the test of time. Our commitment is to your success, helping you navigate challenges and seize opportunities in a dynamic world.
-
-                    </p>
+                    </SubHeading>
                     <ArrowButton direction='r' size={40} className='transition-transform duration-500 mt-5 tracking-wider text-base hover:translate-x-2'>
                         &nbsp;
                         <span>Learn More</span>

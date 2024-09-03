@@ -7,6 +7,7 @@ import Heading from '../components/heading'
 import StartUpForm from '../components/ContactForms/StartUpForm'
 import { Mail,   MapPin , PhoneCall, Printer } from 'lucide-react'
 import { Accordion } from '../components/Accordion'
+import SubHeading from '../components/SubHeading'
 const map = require("../img/map.jpeg")
 
 const ContactPage = () => {
@@ -128,43 +129,43 @@ const ContactPage = () => {
                     <div className="">
                         <Heading>Frequently Asked
                             Questions</Heading>
-                        <p className='mt-2 text-sm text-gray-600'>
+                        <SubHeading className='mt-2'>
                             it to make a type specimen book. It has survived
                             not only five centuries, but also the leap into
                             electronic typesetting.
-                        </p>
+                        </SubHeading>
                     </div>
                     <div className="sm:min-w-[32em] flex flex-col gap-4">
                         <Accordion className='shadow-lg bg-gray-50' title='Where can I get some?'>
-                            <p className='text-sm text-gray-600'>
+                            <SubHeading>
                                 it to make a type specimen book. It has survived not only five centuries, but
                                 also the leap into electronic typesetting, remaining essentially unchanged. It
                                 was popularised in the 1960s with the release
-                            </p>
+                            </SubHeading>
                         </Accordion>
 
                         <Accordion className='shadow-lg bg-gray-50' title='Where does it come from?'>
-                            <p className='text-sm text-gray-600'>
+                            <SubHeading>
                                 it to make a type specimen book. It has survived not only five centuries, but
                                 also the leap into electronic typesetting, remaining essentially unchanged. It
                                 was popularised in the 1960s with the release
-                            </p>
+                            </SubHeading>
                         </Accordion>
 
                         <Accordion className='shadow-lg bg-gray-50' title=' Where does it come from?'>
-                            <p className='text-sm text-gray-600'>
+                            <SubHeading>
                                 it to make a type specimen book. It has survived not only five centuries, but
                                 also the leap into electronic typesetting, remaining essentially unchanged. It
                                 was popularised in the 1960s with the release
-                            </p>
+                            </SubHeading>
                         </Accordion>
 
                         <Accordion className='shadow-lg bg-gray-50' title=' Where does it come from?'>
-                            <p className='text-sm text-gray-600'>
+                            <SubHeading>
                                 it to make a type specimen book. It has survived not only five centuries, but
                                 also the leap into electronic typesetting, remaining essentially unchanged. It
                                 was popularised in the 1960s with the release
-                            </p>
+                            </SubHeading>
                         </Accordion>
                     </div>
                 </div>

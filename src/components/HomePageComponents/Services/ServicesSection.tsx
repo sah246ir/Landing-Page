@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ArrowButton } from '../../Button'
 import ServiceCard from './ServiceCard'
 import Section from '../../Section'
+import Heading from '../../heading'
 const ServiceSection = () => {
     const services = [
         [
@@ -37,9 +38,9 @@ const ServiceSection = () => {
                 <div className="p-5 flex sm:flex-row gap-5 sm:items-end justify-between flex-col items-center text-center sm:text-left">
                     <div>
                         <h1 className='tracking-wider mb-2'>WHAT WE PROVIDE</h1>
-                        <h2 className='text-5xl font-semibold'>
+                        <Heading className='text-5xl font-semibold'>
                             Our Services
-                        </h2>
+                        </Heading>
                     </div>
                     <div className='flex gap-1'>
                         <ArrowButton onClick={goprev} size={55} direction='l' />

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { ArrowButton } from '../../Button'
 import Card from './Card'
 import Section from '../../Section'
+import Heading from '../../heading'
 const PortfolioSection = () => {
     const len = ["","",""]
     const [idx,setIdx] = useState<number>(0)
@@ -28,9 +29,9 @@ const PortfolioSection = () => {
                 <div className=" w-full p-5 px-11 flex sm:items-end justify-between mb-7 flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
                     <div>
                         <h1 className='tracking-wider mb-2'>OUR PORTFOLIO</h1>
-                        <h2 className='text-5xl font-semibold'>
+                        <Heading className='text-5xl font-semibold'>
                             Our Case Studies
-                        </h2>
+                        </Heading>
                     </div>
                     <div className='flex gap-1'>
                         <ArrowButton onClick={goprev} size={55} direction='l' />
