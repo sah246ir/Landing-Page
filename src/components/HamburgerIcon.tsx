@@ -26,7 +26,7 @@ const HamburgerIcon = ({ isopen, setIsOpen }: PropsTypes) => {
     return (
         <div 
             onClick={() => setIsOpen((prev: boolean) => !prev)} 
-            className={`transition duration-300 z-50 fixed right-0 top-0 flex items-center gap-2 cursor-pointer ${scrolled || isopen?"bg-gray-300":"bg-white"} p-4`}
+            className={`transition duration-300 z-50 fixed right-0 top-0 flex items-center gap-2 cursor-pointer ${scrolled || isopen?"bg-white":"bg-white"} p-4`}
         >
             <div className={`relative flex flex-col items-center justify-center ${scrolled?"w-7 h-5":"w-9 h-6"} p-1`}>
                 <div
