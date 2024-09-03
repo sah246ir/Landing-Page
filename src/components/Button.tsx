@@ -31,9 +31,9 @@ export const ArrowButton = ({fill,children,direction,size,className,onClick,stro
       stroke:stroke||"black", 
     }
     return(
-        <button onClick={onClick} className={'' + (className || "")}>
-            {direction==="l" && <ArrowLeftCircleIcon {...iconOptions} className='inline'/>}
-            {direction==="r" && <ArrowRightCircleIcon {...iconOptions} className='inline'/>}
+        <button style={{color:"#ad0000"}} onClick={onClick} className={'' + (className || "")}>
+            {direction==="l" && <ArrowLeftCircleIcon style={{stroke:"#ad0000"}} {...iconOptions} className='inline'/>}
+            {direction==="r" && <ArrowRightCircleIcon style={{stroke:"#ad0000"}} {...iconOptions} className='inline'/>}
             {children}
         </button>
     )

@@ -6,7 +6,7 @@ interface PropTypes{
 }
 const Heading = ({children,className}:PropTypes) => {
     return (
-        <h1 className={'text-3xl font-medium mb-2 '+className}>
+        <h1 style={{color:"#27619C"}} className={'text-3xl font-medium mb-2 '+className}>
             {children}
         </h1>
     )
