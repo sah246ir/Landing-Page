@@ -30,17 +30,17 @@ const HamburgerIcon = ({ isopen, setIsOpen }: PropsTypes) => {
         >
             <div className={`relative flex flex-col items-center justify-center ${scrolled?"w-7 h-5":"w-9 h-6"} p-1`}>
                 <div
-                    className={`transition-transform duration-300 absolute rounded-l-full rounded-r-full bg-gray-800 h-[2px] w-full ${isopen ? "rotate-45 top-3" : "top-0"}`}
+                    className={`transition-transform duration-300 absolute rounded-l-full rounded-r-full  h-[2px] w-full ${isopen ? "bg-red-800 rotate-45 top-3" : "top-0 bg-blue-900"}`}
                 ></div>
                 <div
-                    className={`absolute rounded-l-full rounded-r-full bg-gray-800 h-[2px] w-full ${isopen ? "opacity-0" : "opacity-100"}`}
+                    className={`absolute rounded-l-full rounded-r-full  h-[2px] w-full ${isopen ? "opacity-0" : "opacity-100 bg-blue-900"}`}
                 ></div>
                 <div
-                    className={`transition-transform duration-300 absolute rounded-l-full rounded-r-full bg-gray-800 h-[2px] w-full ${isopen ? "-rotate-45 top-3" : "bottom-0"}`}
+                    className={`transition-transform duration-300 absolute rounded-l-full rounded-r-full  h-[2px] w-full ${isopen ? "bg-red-800 -rotate-45 top-3" : "bottom-0 bg-blue-900"}`}
                 ></div>
             </div>
             {!scrolled && (
-                <p className='tracking-widest text-gray-800'>
+                <p className={`tracking-widest ${isopen?"text-red-800":"text-blue-900"}`}>
                     {isopen ? "CLOSE" : "MENU"}
                 </p>
             )}

@@ -18,18 +18,18 @@ const LeftContact = () => {
       <hr className="my-5 bg-gray-600 h-[2px] w-[55%]" />
 
       <div className='flex flex-col gap-4 p-3'>
-        <p className='text-sm'>
+        <SubHeading className='text-sm'>
           <PhoneCallIcon fill='black' className='inline' size={17} />&nbsp;&nbsp;&nbsp;
           +123(456)789
-        </p>
-        <p className='text-sm'>
+        </SubHeading>
+        <SubHeading className='text-sm'>
           <MailOpen fill='black' className='inline' size={17} />&nbsp;&nbsp;&nbsp;
           abc@gmail.com
-        </p>
-        <p className='text-sm'>
+        </SubHeading>
+        <SubHeading className='text-sm'>
           <LocateFixedIcon fill='black' className='inline' size={17} />&nbsp;&nbsp;&nbsp;
           Address
-        </p>
+        </SubHeading>
       </div>
     </div>
   )
