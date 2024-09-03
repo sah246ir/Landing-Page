@@ -1,4 +1,5 @@
 import { ArrowButton } from '../../Button'
+import Heading from '../../heading'
 import SubHeading from '../../SubHeading'
 const img = require("../../../img/swiss2.webp")
 
@@ -13,7 +14,7 @@ const HistoryCard = ({ year, translate }: PropTypes) => {
                     <img className='w-full' src={img} alt="" />
                 </div>
                 <div className="">
-                    <h1 className='text-xl font-semibold mb-2'>Journey title</h1>
+                    <Heading className='text-xl font-semibold mb-2'>Journey title</Heading>
                     <SubHeading className='!text-lg '>It was popularised in the 1960s with the release of Letraset
                         sheets containing Lorem Ipsum passages.It was popularised in
                         the 1960s with the release of Letraset sheets containing Lorem

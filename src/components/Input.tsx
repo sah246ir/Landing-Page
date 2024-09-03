@@ -26,7 +26,7 @@ interface GroupPropTypes extends PropTypes {
 export const InputGroup = ({ className, type, name, id, placeholder, labelClassName, inputClassName, label }: GroupPropTypes) => {
     return (
         <div className={'flex flex-col gap-1 ' + className}>
-            <label className={'text-md text-gray-800 font-medium ' + labelClassName} htmlFor={id}>{label}</label>
+            <label className={'text-md text-blue-800 font-medium ' + labelClassName} htmlFor={id}>{label}</label>
             {type!=="file" && <Input className={'border border-gray-400 px-2 py-1.5 rounded-sm ' + inputClassName}
                 placeholder={placeholder}
                 type={type}

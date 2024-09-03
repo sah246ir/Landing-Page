@@ -1,4 +1,6 @@
 import { Clock } from 'lucide-react'
+import Heading from '../heading'
+import SubHeading from '../SubHeading'
 const img1 = require("../../img/swiss2.webp")
 
 interface PropTypes {
@@ -33,9 +35,9 @@ export const BlogContent = ({ children, className = '' }: PropsTypes) => {
 }
 export const BlogTitle = ({ children, className = '' }: PropsTypes) => {
     return (
-        <h1 className={'font-medium my-2 text-gray-800 ' + className}>
+        <Heading className={'text-base font-medium my-2 text-gray-800 ' + className}>
             {children || "How well-performed SEO can benefit."}
-        </h1>
+        </Heading>
 
     )
 }
@@ -56,10 +58,10 @@ export const BlogDate = ({ date, icon, className = '' }: BlogDateType) => {
 
 export const BlogDescription = ({ children, className = '' }: PropsTypes) => {
     return (
-        <p className={'text-xs text-gray-600  ' + className}>
+        <SubHeading className={'text-xs text-gray-600  ' + className}>
             {children || `Having collaborated with this team for over a decade, I can
             attest to his exceptional r a decade strategic.`}
-        </p>
+        </SubHeading>
     )
 }
 
