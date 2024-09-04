@@ -6,6 +6,7 @@
 .partial{
     position: relative;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 .partial::after{
     content: "";
@@ -15,8 +16,13 @@
     background-color: black;
     bottom: 0;
     left: 0;
+    transition: 300ms linear;
 }
 
 .partial-sm::after{ 
     width: 3em;  
+}
+
+.partial:hover::after{ 
+    width: 1em;  
 }
