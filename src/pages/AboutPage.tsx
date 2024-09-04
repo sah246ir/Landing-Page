@@ -69,14 +69,13 @@ const AboutPage = () => {
             <Section padded center className='pt-0'>
                 <div className="max-w-[1100px] w-full">
                     <Heading className='bg-gray-400 text-white p-7 sm:w-[12em] -translate-y-16'>
-                        Our<br />
-                        Company
+                        About The Company
                     </Heading>
 
                     <div className="flex flex-col gap-10">
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
                             <Heading className='min-w-[7em] font-normal  partial partial-sm'>
-                                Our Vision
+                               Our Vision
                             </Heading>
                             <SubHeading className='!text-base'>To make Classic Group the most innovative partner in the fields of Investments & Fund Management and
                                 Strategy & Business Management Consulting, focused on highest value creation for associates and
