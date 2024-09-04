@@ -14,11 +14,16 @@ const InvestmentsPage = () => {
             <Section padded gray center>
                 <div className="max-w-[1100px] flex items-center justify-center flex-col gap-5 ">
                     <Heading >Investment Management</Heading>
-                    <div className="max-h-[25em] overflow-hidden">
-                        <img alt='' style={{ objectPosition: "center", objectFit: "cover" }} className='w-full' src={img1} />
+                    <div className=" overflow-hidden w-full">
+                        <img alt='' className='max-h-[25em] w-full object-cover' src={img1} />
                     </div>
-                    <SubHeading className='md:w-[65%] text-center leading-loose'>
-                    Focused on delivering reliable returns through strategic investments in real estate, emerging businesses, and consumer experiences, leveraging a disciplined approach and local expertise to maximize value and ensure project success.                    </SubHeading >
+                    <SubHeading className='md:w-[85%] !text-lg text-center leading-loose'>
+                        our company has emerged as one of the most progressive, whose business
+                        philosophy lies in the commitment to seeking Investments & Fund Management in all spectrums of the Realty and
+                        Business / Consumer Verticals following solid business practices and creating and adding value for our associates and
+                        stakeholders. Our unwavering focus on these factors catapulted the Classic Group into the top echelons of the
+                        investment sector.
+                    </SubHeading >
                     <Button className='bg-black text-white !font-light rounded-full'>
                         Learn More
                     </Button>
@@ -28,60 +33,68 @@ const InvestmentsPage = () => {
 
             <Section gray={false} padded center>
                 <div className="max-w-[1100px] w-full flex items-center justify-center flex-col gap-5 ">
-                    <Heading className=' mb-5'>Competitive Edge</Heading>
+                    <Heading className=' mb-5'>Approach to Investment </Heading>
                     <div className="flex gap-10 flex-col sm:flex-row">
                         <img alt='' style={{ objectPosition: "center", objectFit: "cover" }} className='w-[100%] sm:w-[25em]' src={img2} />
-                        <div className="sm:w-[350px] flex flex-col justify-around text-center">
-                            <SubHeading className='!text-2xl !font-light text-black'>
+                        <div className="sm:w-[350px] flex flex-col justify-around text- ">
+                            <SubHeading className='!text-xl !font-light text-black'>
                                 <q>
-                                    Are you doing the same tasks
-                                    repeatedly? Leave it with us,
-                                    we'll put a robot in place to do
-                                    it for you!
+                                We want to help our partners generate consistent returns by investing in instruments of companies that
+                                are engaged in Real Estate and emerging New Age Businesses and Consumer experiences.
                                 </q>
                             </SubHeading>
 
                             <div className="mt-3">
                                 <Heading className='font-medium text-xl'>Saandip Kundu</Heading>
-                                <SubHeading className='text-sm text-gray-700'>Head | Investment Management</SubHeading>
+                                <SubHeading className='text-sm text-gray-700'>Head of partner investments</SubHeading>
                             </div>
                         </div>
                     </div>
 
-                    <div className="flex flex-wrap gap-5 mt-16">
-                        <ServiceCard />
-                        <ServiceCard />
-                        <ServiceCard />
+                    <div className="mt-16">
+                        <Heading className='mb-3 text-xl'>Investment Strategies</Heading>
+                        <div className="flex gap-5 flex-col sm:flex-row">
+                            <ServiceCard heading='Active Management' className='' />
+                            <ServiceCard heading='Conservative Approach & Diversified Investing' className='' />
+                            <ServiceCard heading='Partnering with Local Players and Industry experts' className='' />
+                        </div>
                     </div>
                 </div>
             </Section>
 
-            <Section gray={false} padded  center className='py-12'>
+            <Section gray={false} padded center className='py-12'>
                 <div className="max-w-[1100px] w-full flex flex-col md:flex-row items-center justify-between gap-5 text-center md:text-left">
                     <div className="flex flex-col gap-5 px-7 w-full">
                         <div>
                             <Heading className='mb-4'>What we can do for you</Heading>
                             <SubHeading className=' leading-loose'>
-                            We offer tailored investment strategies designed to maximize returns through expertly managed and diversified portfolios in real estate, new-age businesses, and consumer experiences.
+                            We have acquired a comprehensive understanding of the processes involved in bringing projects to a successful
+                            conclusion. The Group itself has committed long-term investments in several projects and also uses its expertise to
+                            assist other project investors. This expertise encompasses infrastructural, commercial and business hemispheres
                             </SubHeading>
                         </div>
 
-                        <Heading className='!text-2xl'>Fund</Heading>
+                        <Heading className='!text-2xl'>Investment Process</Heading>
                         <hr />
                         <div className="flex flex-col items-center md:items-start gap-7">
                             <div className="flex items-center gap-3">
                                 <img width={75} src={img1} alt="description" />
-                                 <Heading className='text-base font-normal'>MANAGED ACCOUNTS</Heading>
+                                <Heading className='text-base font-normal'>Sourcing Deal</Heading>
                             </div>
 
                             <div className="flex items-center gap-3">
                                 <img width={75} src={img1} alt="description" />
-                                 <Heading className='text-base font-normal'>MANAGED ACCOUNTS</Heading>
+                                <Heading className='text-base font-normal'>Due Diligence</Heading>
                             </div>
 
                             <div className="flex items-center gap-3">
                                 <img width={75} src={img1} alt="description" />
-                                 <Heading className='text-base font-normal'>MANAGED ACCOUNTS</Heading>
+                                <Heading className='text-base font-normal'>Conceptualization of the Project</Heading>
+                            </div>
+
+                            <div className="flex items-center gap-3">
+                                <img width={75} src={img1} alt="description" />
+                                <Heading className='text-base font-normal'> Constant Monitoring & Hand Holding</Heading>
                             </div>
                         </div>
                     </div>
@@ -91,21 +104,21 @@ const InvestmentsPage = () => {
                         <div className="flex gap-5 flex-wrap mt-4 justify-center md:justify-between pr-5 pl-5 md:pl-0">
                             <div className="flex items-center gap-3 ">
                                 <img width={55} src={img1} alt="description" />
-                                 <Heading className='text-sm font-normal'>MANAGED ACCOUNTS</Heading>
+                                <Heading className='text-sm font-normal'>Professional Management with proven track Record</Heading>
                             </div>
 
                             <div className="flex items-center gap-3">
                                 <img width={55} src={img1} alt="description" />
-                                 <Heading className='text-sm font-normal'>MANAGED ACCOUNTS</Heading>
+                                <Heading className='text-sm font-normal'>Good Corporate Governance</Heading>
                             </div>
 
                             <div className="flex items-center gap-3">
                                 <img width={55} src={img1} alt="description" />
-                                 <Heading className='text-sm font-normal'>MANAGED ACCOUNTS</Heading>
+                                <Heading className='text-sm font-normal'>Extensive Relationships</Heading>
                             </div>
                         </div>
                         <Button className='bg-black text-white rounded-full font-normal mt-6'>
-                        Let’s Connect
+                            Let’s Connect
                         </Button>
                     </div>
 
