@@ -17,7 +17,7 @@ const HomePage = () => {
       <ServiceSection />
       <StatisticsSection />
       <HistorySection />
-      <BlogSection />
+      {/* <BlogSection /> */}
       <ContactSection />
      
     </div>
