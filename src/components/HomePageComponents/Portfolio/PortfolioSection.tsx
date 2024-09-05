@@ -3,7 +3,20 @@ import { ArrowButton } from '../../Button'
 import Card from './Card'
 import Section from '../../Section'
 import Heading from '../../heading'
-const PortfolioSection = () => {
+
+interface Service{
+    img: string,
+    heading: string,
+    description: string,
+    action?: string
+}
+interface PropTypes{
+    heading?:string,
+    subheading?:string
+    cardcontent?:Service[]
+}
+
+const PortfolioSection = ({heading,subheading,cardcontent}:PropTypes) => {
     const len = ["","",""]
     const [idx,setIdx] = useState<number>(0)
 
@@ -28,9 +41,9 @@ const PortfolioSection = () => {
             <div className="w-[100%] lg:w-[1100px] flex justify-center">
                 <div className=" w-full p-5 px-11 flex sm:items-end justify-between mb-7 flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
                     <div>
-                        <h1 className='tracking-wider mb-2'>OUR PORTFOLIO</h1>
+                        <h1 className='tracking-wider mb-2'>{subheading || "OUR PORTFOLIO"}</h1>
                         <Heading className='text-5xl font-semibold'>
-                            Our Case Studies
+                            {heading || "Our Case Studies"}
                         </Heading>
                     </div>
                     <div className='flex gap-1'>
@@ -41,11 +54,20 @@ const PortfolioSection = () => {
             </div>
 
             <div className="flex w-full">
-                {len.map((_,i)=>{
+                {cardcontent? 
+                cardcontent.map((card,i)=>{
+                    return (
+                        <Card idx={i+1} translate={`${-100*idx}%`} heading={card.heading} description={card.description} action={card.action} />  
+                    )
+                })
+                :
+
+                len.map((_,i)=>{
                     return(
                         <Card idx={i+1} translate={`${-100*idx}%`} /> 
                     )
-                })} 
+                })  
+                }
             </div>
             
         </Section>
