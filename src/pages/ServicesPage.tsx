@@ -5,13 +5,33 @@ import Heading from '../components/heading'
 import Button from '../components/Button'
 import ContactCard from '../components/card/ContactCard'
 import SubHeading from '../components/SubHeading'
-const img1 = require("../img/swiss2.webp")
+import PortfolioSection from '../components/HomePageComponents/Portfolio/PortfolioSection'
 
 const ServicesPage = () => {
+    const services = [
+        {
+            img: "",
+            heading: "Corporate Advisory",
+            description: "The group can deliver a variety of advisory services including all types of restructuring, joint ventures, acquisitions &mergers and asset sales. In particular, it offers international companies a highly professional conduit for transactingbusiness in India and identifying suitable partners as well as providing the full range of establishment services needed forconducting business in India. The Group also acts for businesses seeking investments/acquisitions in other parts thecountry or across the globe. This is further backed up by our ability to arrange the required capital",
+            action:"Lets connect"
+        },
+        {
+            img: "",
+            heading: "Private Equity & Direct Investment",
+            description: "The investment & fund division of the Classic Group sources the best private equity deals in particular sectors in India. The Group has had a long and successful track record of investmkents, as principal investor and as a provider of support services to its associates and partners",
+            action:"Learn More"
+        },
+        {
+            img: "",
+            heading: "Asset Management Services",
+            description: "For private associates and partners, the Group’s platform of products and services provides access to a wide range ofinvesting and wealth building tools with the personal guidance of financial experts.The Group offers a full range of financial products and services to high net worth individuals. It also provides professionalasset management services for small and medium sized companies.The Asset Mangement Services of the Group provides medium to long-term capital growth, combined with reducedvolatility through diversification. The services offer the investor to select his portfolio mix and includes a power of attorneyauthorizing the Group to make the investments.",
+            action:"Learn More"
+        }, 
+    ]
     return (
         <div>
             <MainHeadingSection title='Our Services' description='it to make a type specimen book. It has survived not only five centuries' />
-            <Section gray={false} padded center>
+            {/* <Section gray={false} padded center>
                 <div className="max-w-[1100px] flex items-center justify-center flex-col gap-5 ">
                     <div className="max-h-[25em] overflow-hidden">
                         <img alt='' style={{ objectPosition: "center", objectFit: "cover" }} className='w-full' src={img1} />
@@ -26,14 +46,14 @@ const ServicesPage = () => {
                         Learn More
                     </Button>
                 </div>
-            </Section>
+            </Section>*/}
 
-            <Section padded gray className='min-h-[15em]' />
-
+            <PortfolioSection cardcontent={services} subheading='What we deal in' heading='Services' />
+            <Section padded gray className='min-h-[11em]' />
             <Section padded center className='pt-0'>
                 <div className="max-w-[1100px] w-full">
                     <Heading className='bg-gray-400 text-white p-7 sm:w-[12em] -translate-y-16'>
-                    Project Development
+                        Project Development
                     </Heading>
 
                     <div className="flex flex-col gap-10">
@@ -42,28 +62,28 @@ const ServicesPage = () => {
                                 Specialization
                             </Heading>
                             <SubHeading className='!text-xl'>We provide specialized project services from concept to commissioning – from pre-investment feasibility studies
-                            and appraisals to development of joint ventures and company formation</SubHeading>
+                                and appraisals to development of joint ventures and company formation</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
                             <Heading className='min-w-[12em] font-normal  partial partial-sm'>
                                 Professional Service
                             </Heading>
                             <SubHeading className='!text-xl'>We provide professional services to international companies interested in projects in India, in areas such as
-                            business and commerce, infrastructure</SubHeading>
+                                business and commerce, infrastructure</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
                             <Heading className='min-w-[12em] font-normal  partial partial-sm'>
                                 Flexible
                             </Heading>
                             <SubHeading className='!text-xl'>We provide specialized inputs, on request, to assist in the profitable and economic implementation of projects in
-                            close co-operation with management heads.</SubHeading>
+                                close co-operation with management heads.</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
                             <Heading className='min-w-[12em] font-normal  partial partial-sm'>
                                 Assistance
                             </Heading>
                             <SubHeading className='!text-xl'>We assist investment entities of the group in successfully identifying and implementing commercially viable
-                            projects in India</SubHeading>
+                                projects in India</SubHeading>
                         </div>
                     </div>
                 </div>
