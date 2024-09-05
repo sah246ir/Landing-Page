@@ -4,7 +4,6 @@ import Heading from '../components/heading'
 import Button, { ArrowButton } from '../components/Button'
 import ServiceCard from '../components/InvestmentsComponents/ServiceCard'
 import SubHeading from '../components/SubHeading'
-const img1 = require("../img/swiss2.webp")
 const img2 = require("../img/ceo.jpg")
 const leaders = require("../img/leaders.jpeg")
 const invest = require("../img/invest.jpg")

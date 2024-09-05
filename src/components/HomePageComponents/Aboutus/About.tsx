@@ -2,7 +2,6 @@ import { ArrowButton } from '../../Button'
 import Heading from '../../heading'
 import Section from '../../Section'
 import SubHeading from '../../SubHeading'
-const img = require("../../../img/swiss.jpg")
 const tree = require("../../../img/tree.jpeg")
 const About = () => {
     return (
