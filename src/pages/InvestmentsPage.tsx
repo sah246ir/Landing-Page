@@ -7,6 +7,8 @@ import SubHeading from '../components/SubHeading'
 const img1 = require("../img/swiss2.webp")
 const img2 = require("../img/ceo.jpg")
 const leaders = require("../img/leaders.jpeg")
+const invest = require("../img/invest.jpg")
+const why = require("../img/why.jpg")
 
 const InvestmentsPage = () => {
     return (
@@ -15,7 +17,7 @@ const InvestmentsPage = () => {
                 <div className="max-w-[1100px] flex items-center justify-center flex-col gap-5 ">
                     <Heading >Investment Management</Heading>
                     <div className=" overflow-hidden w-full">
-                        <img alt='' className='max-h-[25em] w-full object-cover' src={img1} />
+                        <img alt='' className='max-h-[25em] w-full object-cover' src={invest} />
                     </div>
                     <SubHeading className='md:w-[85%] !text-lg text-center leading-loose'>
                         our company has emerged as one of the most progressive, whose business
@@ -78,42 +80,42 @@ const InvestmentsPage = () => {
                         <hr />
                         <div className="flex flex-col items-center md:items-start gap-7">
                             <div className="flex items-center gap-3">
-                                <img width={75} src={img1} alt="description" />
+                                <img width={75} src={why} alt="description" />
                                 <Heading className='text-base font-normal'>Sourcing Deal</Heading>
                             </div>
 
                             <div className="flex items-center gap-3">
-                                <img width={75} src={img1} alt="description" />
+                                <img width={75} src={why} alt="description" />
                                 <Heading className='text-base font-normal'>Due Diligence</Heading>
                             </div>
 
                             <div className="flex items-center gap-3">
-                                <img width={75} src={img1} alt="description" />
+                                <img width={75} src={why} alt="description" />
                                 <Heading className='text-base font-normal'>Conceptualization of the Project</Heading>
                             </div>
 
                             <div className="flex items-center gap-3">
-                                <img width={75} src={img1} alt="description" />
+                                <img width={75} src={why} alt="description" />
                                 <Heading className='text-base font-normal'> Constant Monitoring & Hand Holding</Heading>
                             </div>
                         </div>
                     </div>
 
                     <div className="w-full">
-                        <img className='w-full' src={img1} alt="description" />
+                        <img className='w-full object-cover' src={why} alt="description" />
                         <div className="flex gap-5 flex-wrap mt-4 justify-center md:justify-between pr-5 pl-5 md:pl-0">
                             <div className="flex items-center gap-3 ">
-                                <img width={55} src={img1} alt="description" />
+                                <img width={55} src={why} alt="description" />
                                 <Heading className='text-sm font-normal'>Professional Management with proven track Record</Heading>
                             </div>
 
                             <div className="flex items-center gap-3">
-                                <img width={55} src={img1} alt="description" />
+                                <img width={55} src={why} alt="description" />
                                 <Heading className='text-sm font-normal'>Good Corporate Governance</Heading>
                             </div>
 
                             <div className="flex items-center gap-3">
-                                <img width={55} src={img1} alt="description" />
+                                <img width={55} src={why} alt="description" />
                                 <Heading className='text-sm font-normal'>Extensive Relationships</Heading>
                             </div>
                         </div>

@@ -7,7 +7,7 @@ import Heading from '../components/heading'
 import CareerForm from '../components/CareerPageComponents/CareerForm'
 import LeftContact from '../components/HomePageComponents/Contact/LeftContact'
 import Testimonial from '../components/CareerPageComponents/Testimonial'
-const img = require("../img/swiss.jpg")
+const team = require("../img/team.jpg")
 
 const CareersPage = () => {
     return (
@@ -19,7 +19,7 @@ const CareersPage = () => {
             <Section gray={false} padded center >
                 <div className="w-[1100px] flex items-center justify-center gap-11 flex-col sm:flex-row text-center sm:text-left">
                     <div className="">
-                        <img width={500} src={img} alt="" />
+                        <img width={500} src={team} alt="" />
                     </div>
                     <div className="sm:w-[30em]">
                         <h2 className='text-5xl font-semibold mb-4'>

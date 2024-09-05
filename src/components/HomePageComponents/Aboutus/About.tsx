@@ -3,6 +3,7 @@ import Heading from '../../heading'
 import Section from '../../Section'
 import SubHeading from '../../SubHeading'
 const img = require("../../../img/swiss.jpg")
+const tree = require("../../../img/tree.jpeg")
 const About = () => {
     return (
         <Section padded center >
@@ -21,7 +22,7 @@ const About = () => {
                     </ArrowButton>
                 </div>
                 <div className="">
-                    <img width={500} src={img} alt="" />
+                    <img className='object-cover' src={tree} alt="" />
                 </div>
             </div>
         </Section>
