@@ -10,7 +10,7 @@ import Heading from '../components/heading'
 import SubHeading from '../components/SubHeading'
 import ServiceCard from '../components/InvestmentsComponents/ServiceCard'
 const img = require("../img/ceo.jpg")
-const img2 = require("../img/swiss2.webp")
+const premises = require("../img/premises.jpg")
 
 const AboutPage = () => {
     const years = [2021, 2022, 2023, 2024]
@@ -34,7 +34,7 @@ const AboutPage = () => {
                     </div>
 
                     <div className="max-w-[1100px]  flex gap-4 flex-col sm:flex-row">
-                        <img style={{ objectFit: "cover" }} className='w-full max-h-[400px]' src={img2} alt="" />
+                        <img style={{ objectFit: "cover" }} className='w-full max-h-[400px]' src={premises} alt="" />
                         <img style={{ objectFit: "cover" }} className='sm:w-[45%]' src={img} alt="" />
                     </div>
                 </div>

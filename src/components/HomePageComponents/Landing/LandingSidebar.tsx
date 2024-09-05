@@ -1,6 +1,9 @@
 import { ArrowButton } from '../../Button'
 import SubHeading from '../../SubHeading'
 
+const img1 = require("../../../img/sustainable.jpg")
+const img2 = require("../../../img/project.jpg")
+const img3 = require("../../../img/construction.jpg")
 const LandingSidebar = () => {
   return (
     <div className='h-full flex flex-col justify-around items-center bg-gray-400 w-[30%] py-8 px-12 max-w-[422px]'>
@@ -20,10 +23,16 @@ const LandingSidebar = () => {
         </ArrowButton>
       </div>
 
-      <div className="flex gap-5 w-[30em] sm:w-[45em] md:w-[55em] lg:w-[65em]">
-        <div style={{aspectRatio:1/1.15}} className="bg-gray-500 min-w-[23%] "></div>
-        <div style={{aspectRatio:1/1.15}} className="bg-gray-500 min-w-[23%] "></div>
-        <div style={{aspectRatio:1/1.15}} className="bg-gray-500 min-w-[23%] "></div>
+      <div className="flex gap-5 w-[130em] max-w-[30em] sm:max-w-[45em] md:max-w-[55em] lg:max-w-[65em] relative">
+        <div style={{aspectRatio:1/1.15}} className="bg-gray-500 w-[23%] "> 
+            <img className='h-full w-full object-cover' src={img1} alt="" />
+        </div>
+        <div style={{aspectRatio:1/1.15}} className="bg-gray-500 w-[23%] ">
+            <img className='h-full w-full object-cover' src={img2} alt="" />
+            </div>
+        <div style={{aspectRatio:1/1.15}} className="bg-gray-500 w-[23%] ">
+            <img className='h-full w-full object-cover' src={img3} alt="" />
+            </div>
       </div>
     </div>
   )
