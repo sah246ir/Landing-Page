@@ -33,28 +33,37 @@ const ServicesPage = () => {
             <Section padded center className='pt-0'>
                 <div className="max-w-[1100px] w-full">
                     <Heading className='bg-gray-400 text-white p-7 sm:w-[12em] -translate-y-16'>
-                        Strategy<br />
-                        Management
+                    Project Development
                     </Heading>
 
                     <div className="flex flex-col gap-10">
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
                             <Heading className='min-w-[12em] font-normal  partial partial-sm'>
-                                Demo Title
+                                Specialization
                             </Heading>
-                            <SubHeading>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi quis dolorem nulla facilis repudiandae perferendis totam maxime inventore debitis! Odio, nisi fugit rem blanditiis iste iure animi cumque atque.</SubHeading>
+                            <SubHeading className='!text-xl'>We provide specialized project services from concept to commissioning – from pre-investment feasibility studies
+                            and appraisals to development of joint ventures and company formation</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
                             <Heading className='min-w-[12em] font-normal  partial partial-sm'>
-                                Demo Title
+                                Professional Service
                             </Heading>
-                            <SubHeading>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi quis dolorem nulla facilis repudiandae perferendis totam maxime inventore debitis! Odio, nisi fugit rem blanditiis iste iure animi cumque atque.</SubHeading>
+                            <SubHeading className='!text-xl'>We provide professional services to international companies interested in projects in India, in areas such as
+                            business and commerce, infrastructure</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
                             <Heading className='min-w-[12em] font-normal  partial partial-sm'>
-                                Demo Title
+                                Flexible
                             </Heading>
-                            <SubHeading>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi quis dolorem nulla facilis repudiandae perferendis totam maxime inventore debitis! Odio, nisi fugit rem blanditiis iste iure animi cumque atque.</SubHeading>
+                            <SubHeading className='!text-xl'>We provide specialized inputs, on request, to assist in the profitable and economic implementation of projects in
+                            close co-operation with management heads.</SubHeading>
+                        </div>
+                        <div className="flex justify-between items-start flex-col md:flex-row gap-4">
+                            <Heading className='min-w-[12em] font-normal  partial partial-sm'>
+                                Assistance
+                            </Heading>
+                            <SubHeading className='!text-xl'>We assist investment entities of the group in successfully identifying and implementing commercially viable
+                            projects in India</SubHeading>
                         </div>
                     </div>
                 </div>
