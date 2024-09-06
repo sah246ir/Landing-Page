@@ -12,10 +12,11 @@ interface PropTypes{
     action?:string
 }
 const Card = ({idx,translate,img,heading,description,action}:PropTypes) => {
+    const immg = img?require(`../../../img/${img}`):undefined
     return (
         <div style={{translate,transition:"translate 700ms ease-in-out"}} className="flex min-w-full flex-col lg:flex-row">
             <div className="lg:w-1/2">
-                <img className="w-full min-h-full object-cover" src={tmimg} alt="" />
+                <img className="w-full min-h-full object-cover" src={immg || tmimg} alt="" />
             </div>
             <div className="p-5 lg:w-1/2 flex flex-col lg:justify-around gap-5 text-center lg:text-left h-full">
                 <h1 className='text-3xl mb-2 font-medium'>{heading || `LOGO-${idx}`}</h1>

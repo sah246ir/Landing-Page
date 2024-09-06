@@ -10,19 +10,19 @@ import PortfolioSection from '../components/HomePageComponents/Portfolio/Portfol
 const ServicesPage = () => {
     const services = [
         {
-            img: "",
+            img: "corporate.jpg",
             heading: "Corporate Advisory",
             description: "The group can deliver a variety of advisory services including all types of restructuring, joint ventures, acquisitions &mergers and asset sales. In particular, it offers international companies a highly professional conduit for transactingbusiness in India and identifying suitable partners as well as providing the full range of establishment services needed forconducting business in India. The Group also acts for businesses seeking investments/acquisitions in other parts thecountry or across the globe. This is further backed up by our ability to arrange the required capital",
             action:"Lets connect"
         },
         {
-            img: "",
+            img: "investment.jpg",
             heading: "Private Equity & Direct Investment",
             description: "The investment & fund division of the Classic Group sources the best private equity deals in particular sectors in India. The Group has had a long and successful track record of investmkents, as principal investor and as a provider of support services to its associates and partners",
             action:"Learn More"
         },
         {
-            img: "",
+            img: "asset.jpg",
             heading: "Asset Management Services",
             description: "For private associates and partners, the Group’s platform of products and services provides access to a wide range ofinvesting and wealth building tools with the personal guidance of financial experts.The Group offers a full range of financial products and services to high net worth individuals. It also provides professionalasset management services for small and medium sized companies.The Asset Mangement Services of the Group provides medium to long-term capital growth, combined with reducedvolatility through diversification. The services offer the investor to select his portfolio mix and includes a power of attorneyauthorizing the Group to make the investments.",
             action:"Learn More"
