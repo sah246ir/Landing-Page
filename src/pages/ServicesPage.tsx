@@ -23,7 +23,7 @@ const ServicesPage = () => {
         },
         {
             img: "asset.jpg",
-            heading: "Asset Management Services",
+            heading: "Asset Management",
             description: "For private associates and partners, the Group’s platform of products and services provides access to a wide range ofinvesting and wealth building tools with the personal guidance of financial experts.The Group offers a full range of financial products and services to high net worth individuals. It also provides professionalasset management services for small and medium sized companies.The Asset Mangement Services of the Group provides medium to long-term capital growth, combined with reducedvolatility through diversification. The services offer the investor to select his portfolio mix and includes a power of attorneyauthorizing the Group to make the investments.",
             action:"Learn More"
         }, 
@@ -48,7 +48,7 @@ const ServicesPage = () => {
                 </div>
             </Section>*/}
 
-            <PortfolioSection cardcontent={services} subheading='What we deal in' heading='Services' />
+            <PortfolioSection cardcontent={services} subheading=' ' heading='What we deal in ?' />
             <Section padded gray className='min-h-[11em]' />
             <Section padded center className='pt-0'>
                 <div className="max-w-[1100px] w-full">
