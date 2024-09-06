@@ -57,7 +57,7 @@ const PortfolioSection = ({heading,subheading,cardcontent}:PropTypes) => {
                 {cardcontent? 
                 cardcontent.map((card,i)=>{
                     return (
-                        <Card idx={i+1} translate={`${-100*idx}%`} heading={card.heading} description={card.description} action={card.action} />  
+                        <Card idx={i+1} translate={`${-100*idx}%`} img={card.img} heading={card.heading} description={card.description} action={card.action} />  
                     )
                 })
                 :
