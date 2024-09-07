@@ -1,7 +1,6 @@
 import React from 'react'
 import LandingSection from '../components/HomePageComponents/Landing/LandingSection'
 import About from '../components/HomePageComponents/Aboutus/About'
-import PortfolioSection from '../components/HomePageComponents/Portfolio/PortfolioSection'
 import ServiceSection from '../components/HomePageComponents/Services/ServicesSection'
 import ContactSection from '../components/HomePageComponents/Contact/ContactSection'
 import HistorySection from '../components/HomePageComponents/History/HistorySection'
@@ -12,7 +11,7 @@ const HomePage = () => {
     <div>
        <LandingSection />
       <About />
-      <PortfolioSection />
+      {/* <PortfolioSection /> */}
       <ServiceSection />
       <StatisticsSection />
       <HistorySection />

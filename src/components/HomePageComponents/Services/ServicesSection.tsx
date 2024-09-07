@@ -33,7 +33,7 @@ const ServiceSection = () => {
         })
     }
     return (
-        <Section padded className='mb-10 flex justify-center'>
+        <Section padded gray className='mb-10 flex justify-center'>
             <div className="w-[1100px] justify-center overflow-hidden">
                 <div className="p-5 flex sm:flex-row gap-5 sm:items-end justify-between flex-col items-center text-center sm:text-left">
                     <div>
