@@ -41,7 +41,7 @@ const HistorySection = () => {
       <div className="w-[100%] lg:w-[1000px] flex flex-col overflow-hidden">
         <div className="">
           <h1 className='tracking-widest text-gray-800 text-sm text-center'>OUR HISTORY</h1>
-          <Heading className='font-medium text-4xl mt-3 text-gray-800 text-center'>Our Great Journey</Heading>
+          <Heading className='font-medium text-4xl mt-3 text-center'>Our Great Journey</Heading>
         
           <NavigationPath setIdx={setter} years={years} idx={idx} />
           <div style={{marginInline:"auto"}} className="mt-3 flex justify-between w-[90%] lg:w-[45em]">
