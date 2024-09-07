@@ -37,8 +37,8 @@ const PortfolioSection = ({heading,subheading,cardcontent}:PropTypes) => {
         })
     }
     return (
-        <Section style={{marginInline:"auto"}} gray padded center className='px-0 flex-col overflow-hidden max-w-[1400px]'>
-            <div className="w-[100%] lg:w-[1100px] flex justify-center">
+        <Section style={{marginInline:"auto"}} gray padded center className='px-0 flex-col overflow-hidden'>
+            <div className="max-w-[1400px] lg:w-[1100px] flex justify-center">
                 <div className=" w-full p-5 px-11 flex sm:items-end justify-between mb-7 flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
                     <div>
                         <h1 className='tracking-wider mb-2'>{subheading || "OUR PORTFOLIO"}</h1>
