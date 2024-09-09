@@ -5,7 +5,7 @@ import SubHeading from '../../SubHeading'
 const tree = require("../../../img/tree.jpeg")
 const About = () => {
     return (
-        <Section padded center className='bg-white' >
+        <Section padded center className='bg-white pb-0' >
             <div className="w-[1100px] flex items-center justify-center gap-11 flex-col sm:flex-row text-center sm:text-left">
                 <div className="sm:w-[30em]">
                     <h1 className='tracking-wider mb-2'>ABOUT US</h1>
