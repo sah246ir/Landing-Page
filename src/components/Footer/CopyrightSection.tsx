@@ -3,8 +3,7 @@ import Button from '../Button'
 
 const CopyrightSection = () => {
   return (
-    <div className="flex justify-center">
-      <div className="max-w-[1100px] flex-grow flex justify-between p-4 items-center">
+      <div className="flex-grow flex justify-between p-1 px-3 items-center">
         <p className='text-gray-600 text-xs'>
           <Copyright size={12} className='inline' />&nbsp;
           2024 Classicgroup. All rights reserved.
@@ -24,7 +23,6 @@ const CopyrightSection = () => {
           </Button>
         </div>
       </div>
-    </div>
   )
 }
 

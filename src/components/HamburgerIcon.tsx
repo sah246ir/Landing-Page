@@ -26,9 +26,9 @@ const HamburgerIcon = ({ isopen, setIsOpen }: PropsTypes) => {
     return (
         <div 
             onClick={() => setIsOpen((prev: boolean) => !prev)} 
-            className={`transition duration-300 z-50 fixed right-0 top-0 flex items-center gap-2 cursor-pointer ${scrolled || isopen?"bg-white":"bg-white"} p-4`}
+            className={`transition duration-300 z-50 flex items-center gap-2 cursor-pointer ${isopen?"bg-white":"bg-white"}`}
         >
-            <div className={`relative flex flex-col items-center justify-center ${scrolled?"w-7 h-5":"w-9 h-6"} p-1`}>
+            <div className={`relative transition-all duration-300 flex flex-col items-center justify-center  ${scrolled ? "w-6 h-4":"w-9 h-6"} ${isopen && "h-7"} p-1`}>
                 <div
                     className={`transition-transform duration-300 absolute rounded-l-full rounded-r-full  h-[2px] w-full ${isopen ? "bg-red-800 rotate-45 top-3" : "top-0 bg-blue-900"}`}
                 ></div>
@@ -39,11 +39,9 @@ const HamburgerIcon = ({ isopen, setIsOpen }: PropsTypes) => {
                     className={`transition-transform duration-300 absolute rounded-l-full rounded-r-full  h-[2px] w-full ${isopen ? "bg-red-800 -rotate-45 top-3" : "bottom-0 bg-blue-900"}`}
                 ></div>
             </div>
-            {!scrolled && (
-                <p className={`tracking-widest ${isopen?"text-red-800":"text-blue-900"}`}>
+                <p className={`tracking-widest ${isopen?"text-red-800":"text-blue-900"} ${scrolled&&" text-xs"}`}>
                     {isopen ? "CLOSE" : "MENU"}
                 </p>
-            )}
         </div>
     );
 }

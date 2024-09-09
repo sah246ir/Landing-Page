@@ -130,19 +130,16 @@ const InvestmentsPage = () => {
 
 
 
-            <Section gray padded center>
+            <Section padded center className='!bg-blue-900'>
                 <div className="max-w-[1100px] w-full  ">
 
-                    <div className=' bg-gray-200 border border-gray-300 px-9 py-12 sm:w-[22em]   hover:bg-gray-100 flex flex-col justify-center  '>
+                    <div className='transition duration-300 bg-white border border-gray-300 px-6 py-6 sm:w-[22em] rounded-lg hover:scale-105    hover:bg-gray-100 flex flex-col justify-center shadow-lg   '>
                         <Heading className='font-md !text-2xl !leading-7 '>How well-performed
                             SEO can benefit</Heading>
-                        <SubHeading className='text-xs text-gray-600 mb-8 mt-3' >Are you doing the same tasks
+                        <SubHeading className='text-xl text-gray-600 mt-3' >Are you doing the same tasks
                             repeatedly? Leave it with us,
                             we'll put a robot in place to do it
-                            for you!</SubHeading>
-                        <Button className='bg-black text-white rounded-full font-normal'>
-                            Download
-                        </Button>
+                            for you!</SubHeading> 
                     </div>
                 </div>
             </Section>
@@ -166,13 +163,13 @@ const InvestmentsPage = () => {
 
 
 
-            <Section center padded style={{ marginInline: "auto" }} >
-                <div className="flex max-w-[1000px] flex-col items-center gap-5">
-                    <Heading className='text-center !mb-0'>
+            <Section center padded style={{ marginInline: "auto" }} className='!bg-blue-950'>
+                <div className="flex max-w-[1000px] flex-col items-center gap-8">
+                    <Heading className='text-center !mb-0 text-white'>
                         How Can We Help You?
                     </Heading>
-                    <SubHeading className='text-center'>It was popularised in the 1960s with the release of Letraset sheets containing</SubHeading>
-                    <Button className='bg-black text-white rounded-full font-normal'>
+                    <SubHeading className='text-center text-white'>It was popularised in the 1960s with the release of Letraset sheets containing</SubHeading>
+                    <Button className='bg-white transition duration-300 rounded-full font-normal border-0 hover:text-white hover:bg-blue-800'>
                         Contact Us
                     </Button>
                 </div>

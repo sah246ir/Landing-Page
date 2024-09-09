@@ -50,39 +50,39 @@ const ServicesPage = () => {
 
             <PortfolioSection cardcontent={services} subheading=' ' heading='What we deal in ?' />
             <Section padded gray className='min-h-[11em]' />
-            <Section padded center className='pt-0'>
+            <Section padded center className='pt-0 !bg-blue-900'>
                 <div className="max-w-[1100px] w-full">
-                    <Heading className='bg-gray-400 text-white p-7 sm:w-[12em] -translate-y-16'>
+                    <Heading className='bg-blue-800 text-white p-7 sm:w-[12em] -translate-y-16 shadow-lg'>
                         Project Development
                     </Heading>
 
                     <div className="flex flex-col gap-10">
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
-                            <Heading className='min-w-[12em] font-normal  partial partial-sm'>
+                            <Heading className='text-white min-w-[12em] font-normal  partial partial-sm'>
                                 Specialization
                             </Heading>
-                            <SubHeading className='!text-xl'>We provide specialized project services from concept to commissioning – from pre-investment feasibility studies
+                            <SubHeading className='text-white !text-xl font-medium'>We provide specialized project services from concept to commissioning – from pre-investment feasibility studies
                                 and appraisals to development of joint ventures and company formation</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
-                            <Heading className='min-w-[12em] font-normal  partial partial-sm'>
+                            <Heading className='text-white min-w-[12em] font-normal  partial partial-sm'>
                                 Professional Service
                             </Heading>
-                            <SubHeading className='!text-xl'>We provide professional services to international companies interested in projects in India, in areas such as
+                            <SubHeading className='text-white !text-xl font-medium'>We provide professional services to international companies interested in projects in India, in areas such as
                                 business and commerce, infrastructure</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
-                            <Heading className='min-w-[12em] font-normal  partial partial-sm'>
+                            <Heading className='text-white min-w-[12em] font-normal  partial partial-sm'>
                                 Flexible
                             </Heading>
-                            <SubHeading className='!text-xl'>We provide specialized inputs, on request, to assist in the profitable and economic implementation of projects in
+                            <SubHeading className='text-white !text-xl font-medium'>We provide specialized inputs, on request, to assist in the profitable and economic implementation of projects in
                                 close co-operation with management heads.</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
-                            <Heading className='min-w-[12em] font-normal  partial partial-sm'>
+                            <Heading className='text-white min-w-[12em] font-normal  partial partial-sm'>
                                 Assistance
                             </Heading>
-                            <SubHeading className='!text-xl'>We assist investment entities of the group in successfully identifying and implementing commercially viable
+                            <SubHeading className='text-white !text-xl font-medium'>We assist investment entities of the group in successfully identifying and implementing commercially viable
                                 projects in India</SubHeading>
                         </div>
                     </div>
@@ -97,13 +97,13 @@ const ServicesPage = () => {
                 </div>
             </MainHeadingSection>
 
-            <Section center padded style={{ marginInline: "auto" }} >
-                <div className="flex max-w-[1000px] flex-col items-center gap-5">
-                    <Heading className='text-center !mb-0'>
+            <Section center padded style={{ marginInline: "auto" }} className='!bg-blue-950'>
+                <div className="flex max-w-[1000px] flex-col items-center gap-8">
+                    <Heading className='text-center !mb-0 text-white'>
                         How Can We Help You?
                     </Heading>
-                    <SubHeading className='text-center '>It was popularised in the 1960s with the release of Letraset sheets containing</SubHeading>
-                    <Button className='bg-black text-white rounded-full font-normal'>
+                    <SubHeading className='text-center text-white'>It was popularised in the 1960s with the release of Letraset sheets containing</SubHeading>
+                    <Button className='bg-white transition duration-300 rounded-full font-normal border-0 hover:text-white hover:bg-blue-800'>
                         Contact Us
                     </Button>
                 </div>

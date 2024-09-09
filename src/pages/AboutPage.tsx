@@ -66,32 +66,30 @@ const AboutPage = () => {
             </Section>
             <Section padded  className='min-h-[10em] bg-white' />
 
-            <Section padded center className='pt-0'>
+            <Section padded center className='pt-0 !bg-blue-900'>
                 <div className="max-w-[1100px] w-full">
-                    <Heading className='bg-gray-400 text-white p-7 sm:w-[12em] -translate-y-16'>
+                    <Heading className='bg-blue-800 text-white p-7 sm:w-[12em] -translate-y-16  shadow-lg'>
                         About The Company
                     </Heading>
 
-                    <div className="flex flex-col gap-10">
+                    <div className="flex flex-col gap-14">
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
-                            <Heading className='min-w-[7em] font-normal  partial partial-sm'>
+                            <Heading className='text-white min-w-[7em] font-normal  partial partial-sm'>
                                Our Vision
                             </Heading>
-                            <SubHeading className='!text-base'>To make Classic Group the most innovative partner in the fields of Investments & Fund Management and
+                            <SubHeading className='text-white !text-lg font-medium'>To make Classic Group the most innovative partner in the fields of Investments & Fund Management and
                                 Strategy & Business Management Consulting, focused on highest value creation for associates and
-                                stakeholders.<br/><br/>
-                                To be an acknowledged leader in terms of maximizing stakeholder value, profitability and growth by being a
-                                financially strong, customer-friendly, and progressive organization</SubHeading>
+                                stakeholders.</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
-                            <Heading className='min-w-[7em] font-normal  partial partial-sm'>
+                            <Heading className='text-white min-w-[7em] font-normal  partial partial-sm'>
                                 Our Mission
                             </Heading>
-                            <SubHeading className='!text-base'>To provide the best value proposition to all stakeholders through effective management of projects and offering
+                            <SubHeading className='text-white !text-lg font-medium'>To provide the best value proposition to all stakeholders through effective management of projects and offering
                             assured results for all business objectives</SubHeading>
                         </div>
                         <div className="flex justify-between items-start flex-col md:flex-row gap-4">
-                            <Heading className='min-w-[7em] font-normal  partial partial-sm'>
+                            <Heading className='text-white min-w-[7em] font-normal  partial partial-sm'>
                                 Our Values
                             </Heading>
                             <div className="flex w-full gap-3">
