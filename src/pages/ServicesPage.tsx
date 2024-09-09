@@ -30,7 +30,7 @@ const ServicesPage = () => {
     ]
     return (
         <div>
-            <MainHeadingSection title='Our Services' description='it to make a type specimen book. It has survived not only five centuries' />
+            <MainHeadingSection img='services.jpg' title='Our Services' description='it to make a type specimen book. It has survived not only five centuries' />
             {/* <Section gray={false} padded center>
                 <div className="max-w-[1100px] flex items-center justify-center flex-col gap-5 ">
                     <div className="max-h-[25em] overflow-hidden">
