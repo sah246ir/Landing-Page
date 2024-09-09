@@ -148,7 +148,7 @@ const InvestmentsPage = () => {
 
 
 
-            <Section center padded style={{ marginInline: "auto" }} className='!bg-blue-950'>
+            <Section center padded style={{ marginInline: "auto" }} className='!bg-blue-900'>
                 <div className="flex max-w-[1000px] flex-col items-center gap-8">
                     <Heading className='text-center !mb-0 text-white'>
                         How Can We Help You?

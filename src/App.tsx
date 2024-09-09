@@ -15,16 +15,18 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Routes>
-        <Route index element={<HomePage />} />
-        <Route path='/case-study' element={<CaseStudiesPage />} />
-        <Route path='/investments' element={<InvestmentsPage />} />
-        <Route path='/blog' element={<BlogPage />} />
-        <Route path='/services' element={<ServicesPage />} />
-        <Route path='/contact-us' element={<ContactPage />} />
-        <Route path='/careers' element={<CareersPage />} />
-        <Route path='/about-us' element={<AboutPage />} />
-      </Routes>
+      <main className='mt-11'>
+        <Routes>
+          <Route index element={<HomePage />} />
+          <Route path='/case-study' element={<CaseStudiesPage />} />
+          <Route path='/investments' element={<InvestmentsPage />} />
+          <Route path='/blog' element={<BlogPage />} />
+          <Route path='/services' element={<ServicesPage />} />
+          <Route path='/contact-us' element={<ContactPage />} />
+          <Route path='/careers' element={<CareersPage />} />
+          <Route path='/about-us' element={<AboutPage />} />
+        </Routes>
+      </main>
       <Footer />
       <CopyrightSection />
     </div>

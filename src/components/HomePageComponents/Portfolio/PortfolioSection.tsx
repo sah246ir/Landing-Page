@@ -13,10 +13,11 @@ interface Service{
 interface PropTypes{
     heading?:string,
     subheading?:string
+    className?:string
     cardcontent?:Service[]
 }
 
-const PortfolioSection = ({heading,subheading,cardcontent}:PropTypes) => {
+const PortfolioSection = ({heading,subheading,cardcontent,className}:PropTypes) => {
     const len = ["","",""]
     const [idx,setIdx] = useState<number>(0)
 
@@ -37,8 +38,8 @@ const PortfolioSection = ({heading,subheading,cardcontent}:PropTypes) => {
         })
     }
     return (
-        <Section style={{marginInline:"auto"}} gray padded center className='px-0 flex-col overflow-hidden'>
-            <div className="max-w-[1400px] lg:w-[1100px] flex justify-center">
+        <Section style={{marginInline:"auto"}} gray padded center className={'px-0 flex-col overflow-hidden ' + className}>
+            <div className="max-w-[1100px] lg:w-[1100px] flex justify-center">
                 <div className=" w-full p-5 px-11 flex sm:items-end justify-between mb-7 flex-col sm:flex-row items-center gap-5 text-center sm:text-left">
                     <div>
                         <h1 className='tracking-wider mb-2'>{subheading || "OUR PORTFOLIO"}</h1>
@@ -53,7 +54,7 @@ const PortfolioSection = ({heading,subheading,cardcontent}:PropTypes) => {
                 </div>
             </div>
 
-            <div className="flex w-full">
+            <div className="flex w-full  max-w-[1400px] overflow-hidden ">
                 {cardcontent? 
                 cardcontent.map((card,i)=>{
                     return (

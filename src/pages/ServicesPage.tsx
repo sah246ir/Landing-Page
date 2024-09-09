@@ -30,7 +30,7 @@ const ServicesPage = () => {
     ]
     return (
         <div>
-            <MainHeadingSection img='services.jpg' title='Our Services' description='it to make a type specimen book. It has survived not only five centuries' />
+            {/* <MainHeadingSection img='services.jpg' title='Our Services' description='it to make a type specimen book. It has survived not only five centuries' /> */}
             {/* <Section gray={false} padded center>
                 <div className="max-w-[1100px] flex items-center justify-center flex-col gap-5 ">
                     <div className="max-h-[25em] overflow-hidden">
@@ -48,7 +48,7 @@ const ServicesPage = () => {
                 </div>
             </Section>*/}
 
-            <PortfolioSection cardcontent={services} subheading=' ' heading='What we deal in ?' />
+            <PortfolioSection  cardcontent={services} subheading='Our Services' heading='What we deal in ?' />
             <Section padded gray className='min-h-[11em]' />
             <Section padded center className='pt-0 !bg-blue-900'>
                 <div className="max-w-[1100px] w-full">
@@ -97,7 +97,7 @@ const ServicesPage = () => {
                 </div>
             </MainHeadingSection>
 
-            <Section center padded style={{ marginInline: "auto" }} className='!bg-blue-950'>
+            <Section center padded style={{ marginInline: "auto" }} className='!bg-blue-900'>
                 <div className="flex max-w-[1000px] flex-col items-center gap-8">
                     <Heading className='text-center !mb-0 text-white'>
                         How Can We Help You?
