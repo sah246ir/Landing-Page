@@ -10,10 +10,10 @@ interface PropTypes {
 const HistoryCard = ({ year, translate }: PropTypes) => {
     return (
             <div style={{ translate, transition: "translate 700ms ease-in-out" }} className="flex items-center min-w-[100%] w-[100%] gap-10 p-4 flex-col">
-                <div className="">
+                <div className=" w-[90%] md:w-[45em]">
                     <img className='w-full' src={img} alt="" />
                 </div>
-                <div className="">
+                <div className=" w-[90%] md:w-[45em]">
                     <Heading className='text-xl font-semibold mb-2'>Journey title</Heading>
                     <SubHeading className='!text-lg '>It was popularised in the 1960s with the release of Letraset
                         sheets containing Lorem Ipsum passages.It was popularised in

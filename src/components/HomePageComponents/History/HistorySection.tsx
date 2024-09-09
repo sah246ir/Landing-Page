@@ -49,7 +49,7 @@ const HistorySection = () => {
             {idx<years.length-1?<ArrowButton onClick={gonext} size={35} direction='r' />:<div />}
           </div>
         </div>
-        <div className="flex w-[100%]">
+        <div className="flex">
           {years.map(yr => {
             return (
               <HistoryCard translate={`${-100 * idx}%`} year={yr} />
