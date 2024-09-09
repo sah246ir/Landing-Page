@@ -13,40 +13,40 @@ const map = require("../img/map.jpeg")
 const ContactPage = () => {
     return (
         <div>
-            <MainHeadingSection className='min-h-[35em]' title="Get in Touch" description="Have questions or need assistance? Get in touch with us today.">
+            <MainHeadingSection img='contact.jpg' className='min-h-[35em]' title="Get in Touch" description="Have questions or need assistance? Get in touch with us today.">
                 <div className="flex gap-8 mt-20 flex-col sm:flex-row flex-wrap items-center justify-center">
                     <ContactCard
                         icon="message-square-text"
-                        className='pt-6 flex text-left'
+                        className='pt-6 flex text-left bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white'
                         iconsize={22}
-                        iconClassName='translate-y-0 mb-7 size-10 !bg-black'
+                        iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'
                         description='It was popularised in the 1960s with the release of Letraset sheets'
                         title='Chat Support'
                     />
 
                     <ContactCard
                         icon="message-square-text"
-                        className='pt-6 flex text-left'
+                        className='pt-6 flex text-left bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white'
                         iconsize={22}
-                        iconClassName='translate-y-0 mb-7 size-10 !bg-black'
+                        iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'
                         description='It was popularised in the 1960s with the release of Letraset sheets'
                         title='Sales Support'
                     />
 
                     <ContactCard
                         icon="message-square-text"
-                        className='pt-6 flex text-left'
+                        className='pt-6 flex text-left bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white'
                         iconsize={22}
-                        iconClassName='translate-y-0 mb-7 size-10 !bg-black'
+                        iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'
                         description='It was popularised in the 1960s with the release of Letraset sheets'
                         title='Visit us'
                     />
 
                     <ContactCard
                         icon="message-square-text"
-                        className='pt-6 flex text-left'
+                        className='pt-6 flex text-left bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white'
                         iconsize={22}
-                        iconClassName='translate-y-0 mb-7 size-10 !bg-black'
+                        iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'
                         description='It was popularised in the 1960s with the release of Letraset sheets'
                         title='Call us'
                     />
