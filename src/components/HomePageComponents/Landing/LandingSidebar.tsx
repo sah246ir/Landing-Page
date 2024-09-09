@@ -3,16 +3,17 @@ import SubHeading from '../../SubHeading'
 
 const img1 = require("../../../img/sustainable.jpg")
 const img2 = require("../../../img/project.jpg")
-const img3 = require("../../../img/construction.jpg")
-const LandingSidebar = () => {
+const img3 = require("../../../img/construction.jpg") 
+const LandingSidebar = ({open}:{open:boolean}) => {
   return (
-    <div className='h-full flex flex-col justify-around items-center bg-gray-400 w-[30%] py-8 px-12 max-w-[422px]'>
-
-      <div className="flex items-center gap-3">
+    <div className={`duration-700 delay-700 ease-out h-full flex flex-col justify-around items-center bg-gray-400 w-[30%] py-8 px-12 max-w-[422px] relative
+      ${open?"translate-x-0":"translate-x-[220%]"}
+    `}> 
+      <div className=" ">
          
       </div>
 
-      <div className="">
+      <div className="z-10">
         <SubHeading>It was popularised in the
           1960s with the release of
           Letraset sheets.

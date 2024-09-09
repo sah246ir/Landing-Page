@@ -26,7 +26,7 @@ const HamburgerIcon = ({ isopen, setIsOpen }: PropsTypes) => {
     return (
         <div 
             onClick={() => setIsOpen((prev: boolean) => !prev)} 
-            className={`transition duration-300 z-50 flex items-center gap-2 cursor-pointer ${isopen?"bg-white":"bg-white"}`}
+            className={`transition duration-300 z-50 flex items-center gap-2 cursor-pointer `}
         >
             <div className={`relative transition-all duration-300 flex flex-col items-center justify-center  ${scrolled ? "w-6 h-4":"w-9 h-6"} ${isopen && "h-7"} p-1`}>
                 <div
@@ -39,9 +39,9 @@ const HamburgerIcon = ({ isopen, setIsOpen }: PropsTypes) => {
                     className={`transition-transform duration-300 absolute rounded-l-full rounded-r-full  h-[2px] w-full ${isopen ? "bg-red-800 -rotate-45 top-3" : "bottom-0 bg-blue-900"}`}
                 ></div>
             </div>
-                <p className={`tracking-widest ${isopen?"text-red-800":"text-blue-900"} ${scrolled&&" text-xs"}`}>
+                {!scrolled && <p className={`tracking-widest ${isopen?"text-red-800":"text-blue-900"} ${scrolled&&" text-xs"}`}>
                     {isopen ? "CLOSE" : "MENU"}
-                </p>
+                </p>}
         </div>
     );
 }

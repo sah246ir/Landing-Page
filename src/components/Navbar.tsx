@@ -23,7 +23,7 @@ const Navbar = ({ className }: { className?: string }) => {
     return (
         <>
             <Sidebar setIsOpen={setIsOpen} isopen={isopen} />
-            <nav className={'w-full sticky z-50   top-0 flex justify-between items-center px-4 py-3 bg-white ' + className}>
+            <nav className={`w-full fixed z-50   top-0 flex justify-between items-center px-4 py-1.5 bg-white ` + className}>
                 <div><img alt='' width={scrolled?75:115} src={logo} className='text-4xl font-normal transition-all duration-300' />  </div>
                 <HamburgerIcon isopen={isopen} setIsOpen={setIsOpen}/>
             </nav>
