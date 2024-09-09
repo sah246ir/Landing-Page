@@ -4,34 +4,19 @@ import Heading from '../components/heading'
 import Button, { ArrowButton } from '../components/Button'
 import ServiceCard from '../components/InvestmentsComponents/ServiceCard'
 import SubHeading from '../components/SubHeading'
+import MainHeadingSection from '../components/MainHeadingSection'
 const img2 = require("../img/ceo.jpg")
 const leaders = require("../img/leaders.jpeg")
-const invest = require("../img/invest.jpg")
 const why = require("../img/why.jpg")
 
 const InvestmentsPage = () => {
     return (
         <div>
-            <Section padded gray center>
-                <div className="max-w-[1100px] flex items-center justify-center flex-col gap-5 ">
-                    <Heading >Investment Management</Heading>
-                    <div className=" overflow-hidden w-full">
-                        <img alt='' className='max-h-[25em] w-full object-cover' src={invest} />
-                    </div>
-                    <SubHeading className='md:w-[85%] !text-lg text-center leading-loose'>
-                        our company has emerged as one of the most progressive, whose business
-                        philosophy lies in the commitment to seeking Investments & Fund Management in all spectrums of the Realty and
-                        Business / Consumer Verticals following solid business practices and creating and adding value for our associates and
-                        stakeholders. Our unwavering focus on these factors catapulted the Classic Group into the top echelons of the
-                        investment sector.
-                    </SubHeading >
-                    <Button className='bg-black text-white !font-light rounded-full'>
-                        Learn More
-                    </Button>
-                </div>
-            </Section>
-
-
+            <MainHeadingSection img="invest.jpg" className='text-white' title='Investment Management' description='our company has emerged as one of the most progressive, whose businessphilosophy lies in the commitment to seeking Investments & Fund Management in all spectrums of the Realty' >
+                <Button className='bg-black text-white !font-light rounded-full mt-5 z-50'>
+                    Learn More
+                </Button>
+            </MainHeadingSection> 
             <Section gray={false} padded center>
                 <div className="max-w-[1100px] w-full flex items-center justify-center flex-col gap-5 ">
                     <Heading className=' mb-5'>Approach to Investment </Heading>
