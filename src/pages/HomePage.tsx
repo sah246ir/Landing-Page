@@ -2,7 +2,6 @@ import React from 'react'
 import LandingSection from '../components/HomePageComponents/Landing/LandingSection'
 import About from '../components/HomePageComponents/Aboutus/About'
 import ServiceSection from '../components/HomePageComponents/Services/ServicesSection'
-import ContactSection from '../components/HomePageComponents/Contact/ContactSection'
 import HistorySection from '../components/HomePageComponents/History/HistorySection'
 import StatisticsSection from '../components/HomePageComponents/Statistics/StatisticsSection'
 
@@ -16,7 +15,7 @@ const HomePage = () => {
       <StatisticsSection />
       <HistorySection />
       {/* <BlogSection /> */}
-      <ContactSection />
+      {/* <ContactSection /> */}
      
     </div>
   )
