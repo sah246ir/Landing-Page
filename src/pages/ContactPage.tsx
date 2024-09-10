@@ -54,16 +54,16 @@ const ContactPage = () => {
             </MainHeadingSection>
 
             <Section gray={false} padded center>
-                <div className="flex flex-col md:flex-row justify-between max-w-[1100px] w-full gap-14">
+                <div className="flex flex-col md:flex-row justify-between max-w-[1100px] w-full  ">
                     <div className="shadow-xl p-3">
-                        <Heading>For Corporate  Works Contact Us</Heading>
+                        <Heading className='p-4'>For Corporate  Works Contact Us</Heading>
                         <div className="mt-6 p-4">
                             <Heading className='text-xl text-gray-700 mb-4'>Contact Form</Heading>
                             <CorporateForm />
                         </div>
                     </div>
                     <div className="shadow-xl p-3">
-                        <Heading>In a Startup Company & Want a Fund ?</Heading>
+                        <Heading className='p-4'>In a Startup Company & Want a Fund ?</Heading>
 
                         <div className="mt-6 p-4">
                             <Heading className='text-xl text-gray-700 mb-4'>Share Required Information</Heading>
@@ -124,44 +124,44 @@ const ContactPage = () => {
 
             </Section>
 
-            <Section padded center>
+            <Section padded center className='!bg-blue-900'>
                 <div className="flex flex-col md:flex-row max-w-[1100px] gap-11 w-full relative">
                     <div className="">
-                        <Heading>Frequently Asked
+                        <Heading className='text-white'>Frequently Asked
                             Questions</Heading>
-                        <SubHeading className='mt-2'>
+                        <SubHeading className='mt-2 text-white'>
                             it to make a type specimen book. It has survived
                             not only five centuries, but also the leap into
                             electronic typesetting.
                         </SubHeading>
                     </div>
-                    <div className="sm:min-w-[32em] flex flex-col gap-4">
-                        <Accordion className='shadow-lg bg-gray-50' title='Where can I get some?'>
-                            <SubHeading>
+                    <div className="w-[85%] flex flex-col gap-4">
+                        <Accordion className='shadow-lg bg-gray-50 bg-opacity-25 rounded-xl' title='Where can I get some?'>
+                            <SubHeading className='text-xl text-white'>
                                 it to make a type specimen book. It has survived not only five centuries, but
                                 also the leap into electronic typesetting, remaining essentially unchanged. It
                                 was popularised in the 1960s with the release
                             </SubHeading>
                         </Accordion>
 
-                        <Accordion className='shadow-lg bg-gray-50' title='Where does it come from?'>
-                            <SubHeading>
+                        <Accordion className='shadow-lg bg-gray-50 bg-opacity-25 rounded-xl' title='Where does it come from?'>
+                            <SubHeading className='text-xl text-white'>
                                 it to make a type specimen book. It has survived not only five centuries, but
                                 also the leap into electronic typesetting, remaining essentially unchanged. It
                                 was popularised in the 1960s with the release
                             </SubHeading>
                         </Accordion>
 
-                        <Accordion className='shadow-lg bg-gray-50' title=' Where does it come from?'>
-                            <SubHeading>
+                        <Accordion className='shadow-lg bg-gray-50 bg-opacity-25 rounded-xl' title=' Where does it come from?'>
+                            <SubHeading className='text-xl text-white'>
                                 it to make a type specimen book. It has survived not only five centuries, but
                                 also the leap into electronic typesetting, remaining essentially unchanged. It
                                 was popularised in the 1960s with the release
                             </SubHeading>
                         </Accordion>
 
-                        <Accordion className='shadow-lg bg-gray-50' title=' Where does it come from?'>
-                            <SubHeading>
+                        <Accordion className='shadow-lg bg-gray-50 bg-opacity-25 rounded-xl' title=' Where does it come from?'>
+                            <SubHeading className='text-xl text-white'>
                                 it to make a type specimen book. It has survived not only five centuries, but
                                 also the leap into electronic typesetting, remaining essentially unchanged. It
                                 was popularised in the 1960s with the release
