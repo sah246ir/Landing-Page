@@ -6,7 +6,7 @@ const img2 = require("../../../img/project.jpg")
 const img3 = require("../../../img/construction.jpg") 
 const LandingSidebar = ({open}:{open:boolean}) => {
   return (
-    <div className={`duration-700 delay-700 ease-out h-full flex flex-col justify-around items-center bg-gray-400 w-[30%] py-8 px-12 max-w-[422px] relative
+    <div style={{transitionDelay:"1300ms"}} className={`duration-700 ease-out h-full flex flex-col justify-around items-center bg-black bg-opacity-55 w-[30%] py-8 px-12 max-w-[422px] relative
       ${open?"translate-x-0":"translate-x-[220%]"}
     `}> 
       <div className=" ">
@@ -14,11 +14,11 @@ const LandingSidebar = ({open}:{open:boolean}) => {
       </div>
 
       <div className="z-10">
-        <SubHeading>It was popularised in the
+        <SubHeading className='text-white'>It was popularised in the
           1960s with the release of
           Letraset sheets.
         </SubHeading>
-        <ArrowButton direction='r' size={40} className='transition-transform duration-500 mt-5 tracking-wider text-md hover:translate-x-2'>
+        <ArrowButton  direction='r' size={40} className='transition-transform duration-500 mt-5 tracking-wider text-md hover:translate-x-2 text-white [&>*]:!stroke-white' >
           &nbsp;
           <span>Case Study</span>
         </ArrowButton>
