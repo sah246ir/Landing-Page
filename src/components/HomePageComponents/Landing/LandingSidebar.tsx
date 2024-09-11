@@ -6,7 +6,7 @@ const img2 = require("../../../img/project.jpg")
 const img3 = require("../../../img/construction.jpg") 
 const LandingSidebar = ({open}:{open:boolean}) => {
   return (
-    <div style={{transitionDelay:"1300ms"}} className={`duration-700 ease-out h-full flex flex-col justify-around items-center bg-black bg-opacity-55 w-[30%] py-8 px-12 max-w-[422px] relative
+    <div style={{transitionDelay:"1300ms"}} className={`duration-700 ease-out h-full flex flex-col justify-around items-center bg-black bg-opacity-55 w-[25%] py-8 px-12 relative
       ${open?"translate-x-0":"translate-x-[240%]"}
     `}> 
       <div className=" ">
