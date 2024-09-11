@@ -96,9 +96,9 @@ const AboutPage = () => {
                                 Our Values
                             </Heading>
                             <div className="flex w-full gap-3">
-                                <ServiceCard className='flex-grow' heading='Integrity' content='We rigorously maintain high standards of truthfulness, honesty and constantly earn the trust of our stake holders ' /> 
-                                <ServiceCard className='flex-grow' heading='Mutual Respect' content='We believe that every human being is unique and has some thing to offer to the society and should be respected. ' />
-                                <ServiceCard className='flex-grow' heading='Pursuit of Excellence' content='We focus on maintaining highest level of quality in all our projects and services. Excellence in everything we do is what differentiates us from the rest' />
+                                <ServiceCard icon='heart-handshake' className='flex-grow' heading='Integrity' content='We rigorously maintain high standards of truthfulness, honesty and constantly earn the trust of our stake holders ' /> 
+                                <ServiceCard icon='handshake' className='flex-grow' heading='Mutual Respect' content='We believe that every human being is unique and has some thing to offer to the society and should be respected. ' />
+                                <ServiceCard icon='trophy' className='flex-grow' heading='Pursuit of Excellence' content='We focus on maintaining highest level of quality in all our projects and services. Excellence in everything we do is what differentiates us from the rest' />
                             </div>
                         </div>
                     </div>
@@ -146,8 +146,8 @@ const AboutPage = () => {
                             return (
                                 <div style={{ translate, transition: "translate 700ms ease-in-out" }} className="flex justify-center min-w-full gap-7 p-5">
                                     <LeaderCard name='Manoharlal Gupta' designation='Visionary founder' />
-                                    <LeaderCard name='Kriti Gupta' designation='CEO' />
                                     <LeaderCard name='Vinit Gupta' designation='Dynamic leader' />
+                                    <LeaderCard name='Kriti Gupta' designation='CEO' />
                                 </div>
                             )
                         })}
