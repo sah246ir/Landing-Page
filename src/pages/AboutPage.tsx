@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import useCarousel from '../hooks/useCarousel'
 import Section from '../components/Section'
 import { ArrowButton } from '../components/Button'
@@ -17,6 +17,9 @@ const AboutPage = () => {
     const { goprev, gonext, translate } = useCarousel({
         cards: 1
     })
+    useEffect(()=>{
+        document.title = "About us"
+      },[])
     return (
         <div>
             <Section padded center className='min-h-[55em]'>

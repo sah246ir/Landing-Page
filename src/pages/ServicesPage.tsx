@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MainHeadingSection from '../components/MainHeadingSection'
 import Section from '../components/Section'
 import Heading from '../components/heading'
@@ -28,6 +28,9 @@ const ServicesPage = () => {
             action:"Learn More"
         }, 
     ]
+    useEffect(()=>{
+        document.title = "Services"
+      },[])
     return (
         <div>
             {/* <MainHeadingSection img='services.jpg' title='Our Services' description='it to make a type specimen book. It has survived not only five centuries' /> */}
