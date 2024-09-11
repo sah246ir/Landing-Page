@@ -3,8 +3,7 @@ import Section from '../components/Section'
 import Heading from '../components/heading'
 import Button, { ArrowButton } from '../components/Button'
 import ServiceCard from '../components/InvestmentsComponents/ServiceCard'
-import SubHeading from '../components/SubHeading'
-import MainHeadingSection from '../components/MainHeadingSection'
+import SubHeading from '../components/SubHeading' 
 const img2 = require("../img/ceo.jpg")
 const leaders = require("../img/leaders.jpeg")
 const why = require("../img/why.jpg")
@@ -12,11 +11,11 @@ const why = require("../img/why.jpg")
 const InvestmentsPage = () => {
     return (
         <div>
-            <MainHeadingSection img="invest.jpg" className='text-white' title='Investment Management' description='our company has emerged as one of the most progressive, whose businessphilosophy lies in the commitment to seeking Investments & Fund Management in all spectrums of the Realty' >
+            {/* <MainHeadingSection img="invest.jpg" className='text-white' title='Investment Management' description='our company has emerged as one of the most progressive, whose businessphilosophy lies in the commitment to seeking Investments & Fund Management in all spectrums of the Realty' >
                 <Button className='bg-black text-white !font-light rounded-full mt-5 z-50'>
                     Learn More
                 </Button>
-            </MainHeadingSection> 
+            </MainHeadingSection>  */}
             <Section gray={false} padded center>
                 <div className="max-w-[1100px] w-full flex items-center justify-center flex-col gap-5 ">
                     <Heading className=' mb-5'>Approach to Investment </Heading>
