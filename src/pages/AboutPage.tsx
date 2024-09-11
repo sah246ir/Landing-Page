@@ -146,8 +146,8 @@ const AboutPage = () => {
                             return (
                                 <div style={{ translate, transition: "translate 700ms ease-in-out" }} className="flex justify-center min-w-full gap-7 p-5">
                                     <LeaderCard name='Manoharlal Gupta' designation='Visionary founder' />
-                                    <LeaderCard name='Kriti Gupta' designation='CEO' />
                                     <LeaderCard name='Vinit Gupta' designation='Dynamic leader' />
+                                    <LeaderCard name='Kriti Gupta' designation='CEO' />
                                 </div>
                             )
                         })}
