@@ -146,26 +146,7 @@ const InvestmentsPage = () => {
                         </ArrowButton>
                     </div>
                 </div>
-            </Section>
-
-
-
-            <Section center padded style={{ marginInline: "auto" }} className='!bg-blue-900'>
-                <div className="flex max-w-[1000px] flex-col items-center gap-8">
-                    <Heading className='text-center !mb-0 text-white'>
-                        How Can We Help You?
-                    </Heading>
-                    <SubHeading className='text-center text-white'>It was popularised in the 1960s with the release of Letraset sheets containing</SubHeading>
-                    <Button className='bg-white transition duration-300 rounded-full font-normal border-0 hover:text-white hover:bg-blue-800'>
-                        Contact Us
-                    </Button>
-                </div>
-
-            </Section>
-
-
-
-
+            </Section> 
 
         </div>
     )
