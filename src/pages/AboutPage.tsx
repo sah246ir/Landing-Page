@@ -96,9 +96,9 @@ const AboutPage = () => {
                                 Our Values
                             </Heading>
                             <div className="flex w-full gap-3">
-                                <ServiceCard className='flex-grow' heading='Integrity' content='We rigorously maintain high standards of truthfulness, honesty and constantly earn the trust of our stake holders ' /> 
-                                <ServiceCard className='flex-grow' heading='Mutual Respect' content='We believe that every human being is unique and has some thing to offer to the society and should be respected. ' />
-                                <ServiceCard className='flex-grow' heading='Pursuit of Excellence' content='We focus on maintaining highest level of quality in all our projects and services. Excellence in everything we do is what differentiates us from the rest' />
+                                <ServiceCard icon='heart-handshake' className='flex-grow' heading='Integrity' content='We rigorously maintain high standards of truthfulness, honesty and constantly earn the trust of our stake holders ' /> 
+                                <ServiceCard icon='handshake' className='flex-grow' heading='Mutual Respect' content='We believe that every human being is unique and has some thing to offer to the society and should be respected. ' />
+                                <ServiceCard icon='trophy' className='flex-grow' heading='Pursuit of Excellence' content='We focus on maintaining highest level of quality in all our projects and services. Excellence in everything we do is what differentiates us from the rest' />
                             </div>
                         </div>
                     </div>
