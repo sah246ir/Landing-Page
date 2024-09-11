@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import LandingSection from '../components/HomePageComponents/Landing/LandingSection'
 import About from '../components/HomePageComponents/Aboutus/About'
 import ServiceSection from '../components/HomePageComponents/Services/ServicesSection'
@@ -6,6 +6,9 @@ import HistorySection from '../components/HomePageComponents/History/HistorySect
 import StatisticsSection from '../components/HomePageComponents/Statistics/StatisticsSection'
 
 const HomePage = () => {
+  useEffect(()=>{
+    document.title = "Classic Group"
+  },[])
   return (
     <div>
        <LandingSection />

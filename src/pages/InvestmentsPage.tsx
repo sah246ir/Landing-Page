@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Section from '../components/Section'
 import Heading from '../components/heading'
 import Button, { ArrowButton } from '../components/Button'
@@ -9,6 +9,9 @@ const leaders = require("../img/leaders.jpeg")
 const why = require("../img/why.jpg")
 
 const InvestmentsPage = () => {
+    useEffect(()=>{
+        document.title = "Investments"
+      },[])
     return (
         <div>
             {/* <MainHeadingSection img="invest.jpg" className='text-white' title='Investment Management' description='our company has emerged as one of the most progressive, whose businessphilosophy lies in the commitment to seeking Investments & Fund Management in all spectrums of the Realty' >

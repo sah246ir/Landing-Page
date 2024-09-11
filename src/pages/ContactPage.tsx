@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import MainHeadingSection from '../components/MainHeadingSection'
 import ContactCard from '../components/card/ContactCard'
 import Section from '../components/Section'
@@ -11,6 +11,9 @@ import SubHeading from '../components/SubHeading'
 const map = require("../img/map.jpeg")
 
 const ContactPage = () => {
+    useEffect(()=>{
+        document.title = "Contact us"
+      },[])
     return (
         <div>
             <MainHeadingSection img='contact.jpg' className='min-h-[35em]' title="Get in Touch" description="Have questions or need assistance? Get in touch with us today.">
