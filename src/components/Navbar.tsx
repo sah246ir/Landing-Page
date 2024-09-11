@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Sidebar from './Sidebar'
+import Sidebar from './Sidebar/Sidebar'
 import HamburgerIcon from './HamburgerIcon'
 import { Link } from 'react-router-dom'
 const logo = require("../img/logo.jpg")
