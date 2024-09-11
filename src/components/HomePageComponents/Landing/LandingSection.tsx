@@ -25,13 +25,13 @@ const LandingSection = () => {
                 <div className="w-[1100px] sm:px-12 z-40">
                     <div
                         className={`p-5 relative flex-grow transform transition-transform duration-700 ease-out ${
-                            isVisible ? 'translate-x-0' : '-translate-x-full'
+                            isVisible ? 'translate-x-0' : '-translate-x-[105%]'
                         }`}
                     >
-                        <Heading className="text-3xl font-semibold mb-4 max-w-[450px] text-white">
+                        <Heading className="text-3xl lg:text-5xl font-medium mb-4  text-white">
                             Empowering Growth Through Strategic Investments and Innovative Business Consulting
                         </Heading>
-                        <SubHeading className="max-w-[450px] border-gray-800 border-0 border-l-[1.5px] px-3 text-white">
+                        <SubHeading className="max-w-[450px] border-gray-800 border-0 border-l-[1.5px]  text-white">
                             At Classic Group, we drive growth and innovation across industries, partnering with businesses to achieve lasting success through integrity and collaboration.
                         </SubHeading>
                         <ArrowButton
