@@ -1,5 +1,6 @@
 import React from 'react'
 import SubHeading from '../SubHeading'
+import { Link } from 'react-router-dom'
 const logo = require("../../img/logo.jpg")
 const FooterContent = () => {
     return (
@@ -14,16 +15,16 @@ const FooterContent = () => {
                 <h1 className='text-sm font-medium text-white'>QUICK LINKS</h1>
                 <ul className='py-2'>
                     <li className='text-gray-300 py-1 text-sm'>
-                        <p>Home</p>
+                        <Link to={"/"}>Home</Link>
                     </li>
                     <li className='text-gray-300 py-1 text-sm'>
-                        <p>About Us</p>
+                        <Link to={"/about-us"}>About Us</Link>
                     </li>
                     <li className='text-gray-300 py-1 text-sm'>
-                        <p>Services</p>
+                        <Link to={"/services"}>Services</Link>
                     </li>
                     <li className='text-gray-300 py-1 text-sm'>
-                        <p>Contact</p>
+                        <Link to={"/contact-us"}>Contact</Link>
                     </li>
                 </ul>
             </div>

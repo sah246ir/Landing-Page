@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { ArrowButton } from '../../Button' 
 import Heading from '../../heading'
 import Section from '../../Section'
@@ -15,10 +16,16 @@ const About = () => {
                     <SubHeading> 
                     At Classic Group, we specialize in transforming businesses with innovative solutions, combining expertise and integrity to deliver results that stand the test of time. Our commitment is to your success, helping you navigate challenges and seize opportunities in a dynamic world.
                     </SubHeading>
-                    <ArrowButton direction='r' size={40} className='transition-transform duration-500 mt-5 tracking-wider text-base hover:translate-x-2'>
-                        &nbsp;
-                        <span>Learn More</span>
-                    </ArrowButton>
+                    <Link to={"/about-us"}>
+                        <ArrowButton 
+                        direction='r' 
+                        size={40} 
+                        className='transition-transform duration-500 mt-5 tracking-wider text-base hover:translate-x-2'
+                        >
+                            &nbsp;
+                            <span>Learn More</span>
+                        </ArrowButton>
+                    </Link>
                 </div>
                 <div className="">
                     <img className='object-cover' src={tree} alt="" />
