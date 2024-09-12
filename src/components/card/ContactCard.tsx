@@ -1,6 +1,8 @@
 import { Contact,  } from 'lucide-react'
 import React, { lazy, Suspense } from 'react'
 import dynamicIconImports from 'lucide-react/dynamicIconImports';
+import SubHeading from '../SubHeading';
+import Heading from '../heading';
 
 interface PropTypes {
     title: string,
@@ -24,8 +26,8 @@ const ContactCard = ({ title, description, className, iconClassName, icon,iconsi
                     </Suspense>
                 </i>
 
-            <h1 className='font-semibold mt-[-1.5rem] text-gray-800'>{title}</h1>
-            <p className='text-xs'>{description}</p>
+            <Heading className='font-semibold text-base mt-[-1.5rem] text-gray-800'>{title}</Heading>
+            <SubHeading className='text-xs'>{description}</SubHeading>
         </div>
 
     )
