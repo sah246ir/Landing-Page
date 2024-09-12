@@ -28,7 +28,7 @@ const ContactPage = () => {
                     />
 
                     <ContactCard
-                        icon="message-square-text"
+                        icon="book-headphones"
                         className='pt-6 flex text-left bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white'
                         iconsize={22}
                         iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'
@@ -37,7 +37,7 @@ const ContactPage = () => {
                     />
 
                     <ContactCard
-                        icon="message-square-text"
+                        icon="store"
                         className='pt-6 flex text-left bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white'
                         iconsize={22}
                         iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'
@@ -46,7 +46,7 @@ const ContactPage = () => {
                     />
 
                     <ContactCard
-                        icon="message-square-text"
+                        icon="headphones"
                         className='pt-6 flex text-left bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white'
                         iconsize={22}
                         iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'
