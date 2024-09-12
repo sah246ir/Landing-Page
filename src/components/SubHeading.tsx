@@ -5,7 +5,7 @@ interface PropTypes{
 }
 const SubHeading = ({children,className}:PropTypes) => {
   return (
-    <p className={'text-sm text-blue-800 ' + className}>
+    <p className={'text-sm text-blue-800 text-justify ' + className}>
         {children}
     </p>
   )

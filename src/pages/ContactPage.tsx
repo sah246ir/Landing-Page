@@ -28,7 +28,7 @@ const ContactPage = () => {
                     />
 
                     <ContactCard
-                        icon="message-square-text"
+                        icon="book-headphones"
                         className='pt-6 flex text-left bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white'
                         iconsize={22}
                         iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'
@@ -37,7 +37,7 @@ const ContactPage = () => {
                     />
 
                     <ContactCard
-                        icon="message-square-text"
+                        icon="store"
                         className='pt-6 flex text-left bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white'
                         iconsize={22}
                         iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'
@@ -46,7 +46,7 @@ const ContactPage = () => {
                     />
 
                     <ContactCard
-                        icon="message-square-text"
+                        icon="headphones"
                         className='pt-6 flex text-left bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white'
                         iconsize={22}
                         iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'
@@ -56,7 +56,7 @@ const ContactPage = () => {
                 </div>
             </MainHeadingSection>
 
-            <Section gray={false} padded center>
+            {/* <Section gray={false} padded center>
                 <div className="flex flex-col md:flex-row justify-between max-w-[1100px] w-full  ">
                     <div className="shadow-xl p-3">
                         <Heading className='p-4'>For Corporate  Works Contact Us</Heading>
@@ -75,19 +75,21 @@ const ContactPage = () => {
                     </div>
 
                 </div>
-            </Section>
+            </Section> */}
 
 
 
             <Section gray={false} padded center >
                 <div className="flex flex-col max-w-[1100px] gap-11 w-full relative">
                     <Heading>Contact</Heading>
-                    <div className="flex gap-8 flex-wrap z-30">
+                    <div className="flex gap-8 flex-wrap z-30 max-w-[500px]">
                         <div className="w-full flex flex-col gap-1.5">
                             <div className="font-medium text-gray-800">Address</div>
                             <div className="flex items-center gap-2">
                                 <MapPin size={20} />
-                                <p className="text-sm text-gray-800">1916 Old York Rd. Abington, PA 19001</p>
+                                <p className="text-sm text-gray-800">
+                                    Unit No.15, Laxmi Plaza Bldg. No. 9, Laxmi Industrial Estate,
+                                    Off. New Link Road, Andheri (W), Mumbai - 400053. INDIA</p>
                             </div>
                         </div>
 
@@ -95,7 +97,7 @@ const ContactPage = () => {
                             <div className="font-medium text-gray-800">Phone no</div>
                             <div className="flex items-center gap-2">
                                 <PhoneCall size={20} />
-                                <p className="text-sm text-gray-800">(123) 456-7890</p>
+                                <p className="text-sm text-gray-800">+91 9821010765</p>
                             </div>
                         </div>
 
@@ -103,7 +105,7 @@ const ContactPage = () => {
                             <div className="font-medium text-gray-800">Fax</div>
                             <div className="flex items-center gap-2">
                                 <Printer size={20} />
-                                <p className="text-sm text-gray-800">(123) 456-7890</p>
+                                <p className="text-sm text-gray-800">+91 22 26375568</p>
                             </div>
                         </div>
 
@@ -111,7 +113,7 @@ const ContactPage = () => {
                             <div className="font-medium text-gray-800">Email</div>
                             <div className="flex items-center gap-2">
                                 <Mail size={20} />
-                                <p className="text-sm text-gray-800">abcd123@gmail.com</p>
+                                <p className="text-sm text-gray-800">info@classicgroup.co.in</p>
                             </div>
                         </div>
                     </div>

@@ -8,11 +8,7 @@ const ServiceSection = () => {
         [
             {heading:"Construction Excellence",subheading:"We specialize in delivering high-quality construction projects that blend precision with innovation, ensuring every detail meets the highest standards.",img:"construction.jpg"},
             {heading:"Innovative Design",subheading:"Our design services focus on creating visionary spaces that combine functionality with aesthetic appeal, setting new benchmarks for creativity and sustainability.",img:"design.jpg"},
-        ],
-        [
-            {heading:" Project Management",subheading:"From inception to completion, our expert project management team ensures smooth operations, timely delivery, and exceptional results, keeping your project on track and within budget.",img:"project.jpg"},
-            {heading:"Sustainable Solutions",subheading:"We are committed to incorporating eco-friendly practices and materials into our projects, aiming to create sustainable and energy-efficient environments that benefit both clients and the planet.",img:"sustainable.jpg"},
-        ]
+        ] 
     ]
     const [idx, setIdx] = useState<number>(0)
 
@@ -39,7 +35,7 @@ const ServiceSection = () => {
                     <div>
                         <h1 className='tracking-wider mb-2'>WHAT WE PROVIDE</h1>
                         <Heading className='text-5xl font-semibold'>
-                            Our Services
+                        Core Services
                         </Heading>
                     </div>
                     <div className='flex gap-1'>

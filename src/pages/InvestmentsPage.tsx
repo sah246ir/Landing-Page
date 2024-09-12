@@ -2,8 +2,8 @@ import React, { useEffect } from 'react'
 import Section from '../components/Section'
 import Heading from '../components/heading'
 import Button, { ArrowButton } from '../components/Button'
-import ServiceCard from '../components/InvestmentsComponents/ServiceCard'
 import SubHeading from '../components/SubHeading' 
+import ContactCard from '../components/card/ContactCard'
 const img2 = require("../img/ceo.jpg")
 const leaders = require("../img/leaders.jpeg")
 const why = require("../img/why.jpg")
@@ -37,19 +37,26 @@ const InvestmentsPage = () => {
                                 <SubHeading className='text-sm text-gray-700'>Head of partner investments</SubHeading>
                             </div>
                         </div>
-                    </div>
-
-                    <div className="mt-16">
-                        <Heading className='mb-3 text-xl'>Investment Strategies</Heading>
-                        <div className="flex gap-5 flex-col sm:flex-row">
-                            <ServiceCard heading='Active Management' className='' />
-                            <ServiceCard heading='Conservative Approach & Diversified Investing' className='' />
-                            <ServiceCard heading='Partnering with Local Players and Industry experts' className='' />
-                        </div>
-                    </div>
+                    </div> 
                 </div>
             </Section>
-
+            
+            <Section gray={false} padded center className='!bg-blue-900' >
+            <div className="max-w-[1100px] w-full flex flex-col gap-5 text-center md:text-left">
+            <Heading className='mb-3  text-white'>Investment Strategies</Heading>
+            <div className="flex gap-5 flex-col sm:flex-row">
+                <ContactCard description="Are you doing the same tasks repeatedly Leave it with us, we'll put a robot in place to do it for you!" title='Active Management' className='pt-6 flex bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white flex-grow text-center'
+                        iconsize={22}
+                        iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'/>
+                <ContactCard description="Are you doing the same tasks repeatedly Leave it with us, we'll put a robot in place to do it for you!" icon='shield' title='Conservative Approach & Diversified Investing'  className='pt-6 flex  bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white flex-grow text-center'
+                        iconsize={22}
+                        iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black'/>
+                <ContactCard description="Are you doing the same tasks repeatedly Leave it with us, we'll put a robot in place to do it for you!" title='Partnering with Local Players and Industry experts' className='pt-6 flex  bg-opacity-25 border-0 hover:scale-105 [&>*]:text-white flex-grow text-center'
+                        iconsize={22}
+                        iconClassName='translate-y-0 mb-7 size-10 !bg-white !text-black' />
+            </div>
+            </div>
+            </Section>
             <Section gray={false} padded center className='py-12'>
                 <div className="max-w-[1100px] w-full flex flex-col md:flex-row items-center justify-between gap-5 text-center md:text-left">
                     <div className="flex flex-col gap-5 px-7 w-full">
@@ -129,6 +136,8 @@ const InvestmentsPage = () => {
                             for you!</SubHeading> 
                     </div>
                 </div>
+
+
             </Section>
 
             <Section gray={false} padded center >
