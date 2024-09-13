@@ -24,8 +24,8 @@ const Sidebar = ({ isopen,setIsOpen }: PropTypes) => {
             Services
           </DropdownTitle>
           <DropdownContent>
-            <DropdownItem onClick={()=>setIsOpen(false)} className='text-blue-400 hover:text-blue-700' to='/investments'>Investments and strategic consulting</DropdownItem>  
-            <DropdownItem onClick={()=>setIsOpen(false)} className='text-blue-400 hover:text-blue-700' to='/services'>Other Services</DropdownItem>  
+            <DropdownItem onClick={()=>setIsOpen(false)} className='text-blue-400 hover:text-blue-700' to='/investments'>Investments and Fund Management</DropdownItem>  
+            <DropdownItem onClick={()=>setIsOpen(false)} className='text-blue-400 hover:text-blue-700' to='/business-consulting'>Business Management Consulting</DropdownItem>  
           </DropdownContent>
        </Dropdown>
        <SidebarAction onclick={setIsOpen} title='Contact' href='/contact-us' />
