@@ -11,58 +11,35 @@ const FooterContent = () => {
                     standard dummy text ever since the 1500s</SubHeading>
             </div>
 
-            <div className="flex-grow px-5">
-                <h1 className='text-sm font-medium text-white'>QUICK LINKS</h1>
-                <ul className='py-2'>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <Link to={"/"}>Home</Link>
-                    </li>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <Link to={"/about-us"}>About Us</Link>
-                    </li>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <Link to={"/services"}>Services</Link>
-                    </li>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <Link to={"/contact-us"}>Contact</Link>
-                    </li>
-                </ul>
-            </div>
-
-            <div className="flex-grow px-5  ">
-                <h1 className='text-sm font-medium text-white'>QUICK LINKS</h1>
-                <ul className='py-2'>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <p>Home</p>
-                    </li>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <p>About Us</p>
-                    </li>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <p>Services</p>
-                    </li>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <p>Contact</p>
-                    </li>
-                </ul>
-            </div>
-
-            <div className="flex-grow px-5">
-                <h1 className='text-sm font-medium text-white'>INFORMATION</h1>
-                <ul className='py-2'>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <p>Privacy Policy</p>
-                    </li>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <p>Term And Condition</p>
-                    </li>
-                    <li className='text-gray-300 py-1 text-sm'>
-                        <p>Accessibility</p>
-                    </li>
-                    <li className='text-gray-300 py-1 text-sm font-light' >
-                        <p>Industries</p>
-                    </li>
-                </ul>
+            <div className="flex gap-5">
+                <div className="flex-grow px-5">
+                    <h1 className='text-sm font-medium text-white'>QUICK LINKS</h1>
+                    <ul className='py-2'>
+                        <li className='text-gray-300 py-1 text-sm'>
+                            <Link to={"/"}>Home</Link>
+                        </li>
+                        <li className='text-gray-300 py-1 text-sm'>
+                            <Link to={"/about-us"}>About Us</Link>
+                        </li>
+                        <li className='text-gray-300 py-1 text-sm'>
+                            <Link to={"/services"}>Services</Link>
+                        </li>
+                        <li className='text-gray-300 py-1 text-sm'>
+                            <Link to={"/contact-us"}>Contact</Link>
+                        </li>
+                    </ul>
+                </div>
+                <div className="flex-grow px-5">
+                    <h1 className='text-sm font-medium text-white'>INFORMATION</h1>
+                    <ul className='py-2'>
+                        <li className='text-gray-300 py-1 text-sm'>
+                            <p>Privacy Policy</p>
+                        </li>
+                        <li className='text-gray-300 py-1 text-sm'>
+                            <p>Term And Condition</p>
+                        </li> 
+                    </ul>
+                </div>
             </div>
         </div>
     )
