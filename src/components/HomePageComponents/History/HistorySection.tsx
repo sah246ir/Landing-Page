@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
-import { ArrowButton } from '../../Button'
-import HistoryCard from './HistoryCard'
+import { ArrowButton } from '../../Button' 
 import NavigationPath from './NavigationPath'
 import Section from '../../Section'
 import Heading from '../../heading'
@@ -38,24 +37,24 @@ const HistorySection = () => {
     <Section padded center className=' flex-col '>
 
 
-      <div className="w-[100%] lg:w-[1000px] flex flex-col overflow-hidden">
-        <div className="">
+      <div className="w-[100%] lg:w-[1000px] flex flex-col overflow- py-7 ">
+        <div className="overflow-visible">
           <h1 className='tracking-widest text-gray-800 text-sm text-center'>OUR HISTORY</h1>
           <Heading className='font-medium text-4xl mt-3 text-center'>Our Great Journey</Heading>
         
-          <NavigationPath setIdx={setter} years={years} idx={idx} />
           <div style={{marginInline:"auto"}} className="mt-3 flex justify-between w-[90%] lg:w-[45em]">
             {idx>0?<ArrowButton onClick={goprev} size={35} direction='l' />:<div />}
             {idx<years.length-1?<ArrowButton onClick={gonext} size={35} direction='r' />:<div />}
           </div>
+          <NavigationPath setIdx={setter} years={years} idx={idx} />
         </div>
-        <div className="flex">
+        {/* <div className="flex">
           {years.map(yr => {
             return (
               <HistoryCard translate={`${-100 * idx}%`} year={yr} />
             )
           })}
-        </div>
+        </div> */}
       </div>
     </Section>
   )
