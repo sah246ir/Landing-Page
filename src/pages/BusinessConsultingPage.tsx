@@ -2,9 +2,8 @@ import React, { useEffect } from 'react'
 import Section from '../components/Section'
 import Heading from '../components/heading'
 import Button, { ArrowButton } from '../components/Button'
-import SubHeading from '../components/SubHeading'
-import ContactCard from '../components/card/ContactCard'
-import { BadgeCheck, Dot, DotIcon, Target } from 'lucide-react'
+import SubHeading from '../components/SubHeading' 
+import { BadgeCheck } from 'lucide-react'
 const img2 = require("../img/ceo.jpg")
 const leaders = require("../img/leaders.jpeg")
 const why = require("../img/why.jpg")
