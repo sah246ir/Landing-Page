@@ -1,7 +1,7 @@
 import React from 'react'
 import SubHeading from '../SubHeading'
 import { Link } from 'react-router-dom'
-const logo = require("../../img/logo.jpg")
+const logo = require("../../img/logo.png")
 const FooterContent = () => {
     return (
         <div className='flex flex-col text-center md:text-left md:flex-row items-center md:items-start gap-3 divide-x  divide-blue-900'>
