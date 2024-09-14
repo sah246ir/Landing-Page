@@ -17,7 +17,7 @@ const LandingSection = () => {
     }, []);
 
     return (
-        <section className="bg-gray-100 overflow-hidden h-screen">
+        <section className="bg-gray-100 overflow-hidden h-screen relative">
             <div className="absolute h-full w-full left-0 top-0">
                 <div className="absolute w-full h-full bg-black opacity-70"></div>
                 <img className='h-full w-full object-cover' src={img} alt="" />
