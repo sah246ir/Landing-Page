@@ -4,8 +4,7 @@ import Button from '../Button'
 
 const CorporateForm = () => {
   return (
-    <form className='flex flex-col gap-4' name='Contact-Form' data-netlify="true" netlify-honeypot="bot-field" method='post'>
-        <input type="hidden" name="form-name" value="Contact-Form" />
+    <form className='flex flex-col gap-4' name="contact" data-netlify="true" netlify-honeypot="bot-field" method='post'>
         <InputGroup
           placeholder='First name' type="text" name="firstname" id="firstname"
           label='First name'
